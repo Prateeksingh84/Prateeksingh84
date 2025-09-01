@@ -16,27 +16,27 @@
 
 ## 🙋‍♂️ About Me
 
-- [cite_start]🎓 Student at SRM University Sonepat, pursuing a Bachelor of Technology in Computer Science with a specialization in Data Science & Artificial Intelligence. [cite: 7, 9]
-- [cite_start]💻 Interests: Data analysis, machine learning, NLP, and AI-driven content creation. [cite: 2, 22, 23]
-- [cite_start]🧰 Tech Stack: `Python`, `R`, `C`, `Java`, `HTML`, `CSS`, `Pandas`, `NumPy`, `Scikit-learn`, `Power BI` [cite: 13, 14, 39, 40]
-- [cite_start]🔍 Focus: Building and evaluating machine learning models and applying data analysis techniques. [cite: 14, 19]
-- [cite_start]✨ Fun Fact: I'm a certified NCC cadet, demonstrating leadership and discipline. [cite: 45, 47]
+- 🎓 Student at SRM University Sonepat, pursuing a Bachelor of Technology in Computer Science with a specialization in Data Science & Artificial Intelligence.
+- 💻 Interests: Data analysis, machine learning, NLP, and AI-driven content creation.
+- 🧰 Tech Stack: `Python`, `R`, `C`, `Java`, `HTML`, `CSS`, `Pandas`, `NumPy`, `Scikit-learn`, `Power BI`
+- 🔍 Focus: Building and evaluating machine learning models and applying data analysis techniques.
+- ✨ Fun Fact: I'm a certified NCC cadet, demonstrating leadership and discipline.
 
 ---
 
 ## 🚀 Skills and Technologies
 
 ### 💻 Programming Languages
-`Python` &nbsp;|&nbsp; `R` &nbsp;|&nbsp; `C` &nbsp;|&nbsp; `Java` &nbsp;|&nbsp; `HTML` &nbsp;|&nbsp; [cite_start]`CSS` [cite: 39]
+`Python` &nbsp;|&nbsp; `R` &nbsp;|&nbsp; `C` &nbsp;|&nbsp; `Java` &nbsp;|&nbsp; `HTML` &nbsp;|&nbsp; `CSS`
 
 ### 📊 Data Science & AI
-`Pandas` &nbsp;|&nbsp; `NumPy` &nbsp;|&nbsp; `Matplotlib` &nbsp;|&nbsp; `Scikit-learn` &nbsp;|&nbsp; `NLTK` &nbsp;|&nbsp; `Google Generative AI` &nbsp;|&nbsp; `NLP` &nbsp;|&nbsp; [cite_start]`IBM Cloud` [cite: 13, 14, 23, 28, 36, 40]
+`Pandas` &nbsp;|&nbsp; `NumPy` &nbsp;|&nbsp; `Matplotlib` &nbsp;|&nbsp; `Scikit-learn` &nbsp;|&nbsp; `NLTK` &nbsp;|&nbsp; `Google Generative AI` &nbsp;|&nbsp; `NLP` &nbsp;|&nbsp; `IBM Cloud`
 
 ### 🛠️ Frameworks & Tools
-`Git` &nbsp;|&nbsp; `GitHub` &nbsp;|&nbsp; `Power BI` &nbsp;|&nbsp; `Postman` &nbsp;|&nbsp; `Canva` &nbsp;|&nbsp; `MongoDB` &nbsp;|&nbsp; [cite_start]`Visual Studio` [cite: 40]
+`Git` &nbsp;|&nbsp; `GitHub` &nbsp;|&nbsp; `Power BI` &nbsp;|&nbsp; `Postman` &nbsp;|&nbsp; `Canva` &nbsp;|&nbsp; `MongoDB` &nbsp;|&nbsp; `Visual Studio`
 
 ### 📚 Concepts
-`Software Development Lifecycle` &nbsp;|&nbsp; `Version Control` &nbsp;|&nbsp; [cite_start]`Python Libraries` [cite: 41]
+`Software Development Lifecycle` &nbsp;|&nbsp; `Version Control` &nbsp;|&nbsp; `Python Libraries`
 
 ---
 
