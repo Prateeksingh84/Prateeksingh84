@@ -137,14 +137,6 @@ prateek = {
 
 </div>
 
-## 🏆 GitHub Trophies
-<div align="center">
-
-![](https://github-profile-trophy.vercel.app/?username=Prateeksingh84&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-</div>
-
----
 
 ## 🎓 Certifications
 
