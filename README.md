@@ -23,7 +23,7 @@ prateek = {
     "name"       : "Prateek Singh",
     "role"       : "Data Science Analyst & AI-ML Engineer",
     "education"  : "B.Tech CSE (DSAI) @ SRM University, Delhi-NCR | CGPA: 8.3",
-    "location"   : "Buxar, Bihar 🇮🇳",
+    "location"   : "Delhi, India 🇮🇳",
     "languages"  : ["English", "Hindi (Fluent)", "German (Working Knowledge)"],
     "currently"  : "Software Trainee @ Hestabit Technologies Pvt. Ltd.",
     "interests"  : ["Generative AI", "RAG Pipelines", "LLMs", "Data Analytics", "ML Engineering"],
