@@ -131,9 +131,9 @@ prateek = {
 
 <div align="center">
 
-![Prateek's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Prateeksingh84&theme=synthwave&hide_border=false&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github)<br/>
+![Prateek's GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Prateeksingh84&theme=synthwave)<br/>
 ![GitHub Streak](https://streak-stats.demolab.com?user=Prateeksingh84&theme=synthwave&hide_border=false)<br/>
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Prateeksingh84&theme=synthwave&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=8)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Prateeksingh84&theme=synthwave)
 
 </div>
 
