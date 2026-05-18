@@ -131,9 +131,9 @@ prateek = {
 
 <div align="center">
 
-![Prateek's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Prateeksingh84&theme=synthwave&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=Prateeksingh84&theme=synthwave&hide_border=false)<br/>
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Prateeksingh84&theme=synthwave&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![Prateek's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Prateeksingh84&theme=synthwave&hide_border=false&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github)<br/>
+![GitHub Streak](https://streak-stats.demolab.com?user=Prateeksingh84&theme=synthwave&hide_border=false)<br/>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Prateeksingh84&theme=synthwave&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=8)
 
 </div>
 
@@ -175,3 +175,4 @@ prateek = {
 *"Every dataset tells a story. I make sure it's worth reading."*
 
 </div>
+.
