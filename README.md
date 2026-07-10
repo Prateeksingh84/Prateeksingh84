@@ -131,8 +131,7 @@ prateek = {
       <img src="https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square"/>
       <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
     </td>
-    <td width="50%">
-    </td>
+    <td width="50%"></td>
   </tr>
 </table>
 
