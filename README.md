@@ -1,17 +1,22 @@
 <div align="center">
 
 <!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:1a1a3e,50:302b63,75:1a1a3e,100:0a0e27&height=220&section=header&text=PRATEEK%20SINGH&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=AI%2FML%20Engineer%20%7C%20GenAI%20Developer%20%7C%20Software%20Engineer&descAlignY=56&descSize=18&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:1a1a3e,50:302b63,75:1a1a3e,100:0a0e27&height=260&section=header&text=PRATEEK%20SINGH&fontSize=56&fontColor=ffffff&fontAlignY=34&desc=AI%2FML%20Engineer%20%7C%20GenAI%20Developer%20%7C%20Software%20Engineer&descAlignY=52&descSize=18&animation=fadeIn" />
 
 <!-- Typing Animation -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=750&lines=%F0%9F%A4%96+Building+RAG+Pipelines+%26+LLM+Apps;%F0%9F%A7%A0+Designing+Multi-Agent+AI+Systems;%E2%9A%A1+Shipping+Production-Style+ML+Pipelines;%F0%9F%93%8A+Turning+Raw+Data+into+Real+Decisions;%F0%9F%9A%80+B.Tech+CSE+%7C+DSAI+%7C+SRM+University)](https://git.io/typing-svg)
 
 <br/>
 
-<!-- Visitor Count + Profile Badges -->
+<!-- Social + Status Badges -->
 [![](https://visitcount.itsvg.in/api?id=Prateeksingh84&icon=5&color=6)](https://visitcount.itsvg.in)
-![GitHub followers](https://img.shields.io/github/followers/Prateeksingh84?style=social)
-![GitHub stars](https://img.shields.io/github/stars/Prateeksingh84?style=social)
+![GitHub followers](https://img.shields.io/github/followers/Prateeksingh84?style=for-the-badge&color=A78BFA&labelColor=0a0e27)
+![GitHub stars](https://img.shields.io/github/stars/Prateeksingh84?style=for-the-badge&color=A78BFA&labelColor=0a0e27)
+![Profile Views](https://img.shields.io/badge/status-open_to_work-brightgreen?style=for-the-badge&labelColor=0a0e27)
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=500&color=6EE7B7&center=true&vCenter=true&width=550&lines=%E2%9C%A8+Currently+Interning+%40+Hestabit+Technologies;%F0%9F%8C%B1+Always+learning%2C+always+building" />
 
 </div>
 
@@ -19,50 +24,116 @@
 
 ## 🧬 About Me
 
+<table>
+<tr>
+<td width="55%" valign="top">
+
 ```python
 prateek = {
     "name"       : "Prateek Singh",
     "role"       : "AI/ML Engineer | GenAI Developer | Software Engineer",
-    "education"  : "B.Tech CSE (DSAI) @ SRM University, Delhi-NCR | CGPA: 8.5",
+    "education"  : "B.Tech CSE (DSAI) @ SRM University, Delhi-NCR",
+    "cgpa"       : 8.5,
     "location"   : "New Delhi, India 🇮🇳",
-    "languages"  : ["English", "Hindi (Fluent)", "German (Working Knowledge)"],
-    "currently"  : "Software Engineer Intern @ Hestabit Technologies Pvt. Ltd.",
-    "focus"      : ["Generative AI", "RAG Pipelines", "Multi-Agent Systems",
-                     "LLM Applications", "ML Engineering", "Data Analytics"],
-    "open_to"    : ["Internships", "Full-time Roles", "Collaborations", "Open Source"]
+    "languages"  : ["English", "Hindi (Fluent)", "German (Working)"],
+    "currently"  : "SWE Intern @ Hestabit Technologies Pvt. Ltd.",
+    "focus"      : ["Generative AI", "RAG Pipelines",
+                     "Multi-Agent Systems", "LLM Apps",
+                     "ML Engineering", "Data Analytics"],
+    "open_to"    : ["Internships", "Full-time Roles",
+                     "Collaborations", "Open Source"]
 }
+
+print(prateek["role"])
+# >> AI/ML Engineer | GenAI Developer | Software Engineer
 ```
 
 > *"Data is the new oil — but only if you can refine it."*
+
+</td>
+<td width="45%" valign="top" align="center">
+
+<img src="https://raw.githubusercontent.com/DenverCoder1/readme-typing-svg/master/assets/gifs/hello-wave.gif" width="60"/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+</td>
+</tr>
+</table>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
 ## 💼 Work Experience
 
-### 🏢 Hestabit Technologies Pvt. Ltd. — *Software Engineer Intern, AI/ML & Backend* `Jan 2026 – Present`
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100%" height="4">
+
+<table>
+<tr><td>
+
+### 🏢 Hestabit Technologies Pvt. Ltd.
+**Software Engineer Intern, AI/ML & Backend** &nbsp;·&nbsp; `Jan 2026 – Present`
+
 - 🤖 Built **production-style AI & backend modules** using Python, REST APIs, RAG pipelines, embeddings, and LLM workflows
 - 🛡️ Engineered **cybersecurity data-processing pipelines** on NF-UQ-NIDS-v2 network traffic datasets for anomaly detection & traffic pattern analysis
 - ⚡ Reduced **decision-making latency by 30%** through automated analytics workflows and KPI-ready dashboards
 - 🔁 Applied **Git workflows, Docker deployments & CI/CD concepts** across sprint-based development cycles
 
-### 🏛️ NITI AAYOG (Ministry of Home Affairs) — *S&T Research Intern, Data Automation & Analytics* `Sept 2025 – Nov 2025`
+</td></tr>
+<tr><td>
+
+### 🏛️ NITI AAYOG (Ministry of Home Affairs)
+**S&T Research Intern, Data Automation & Analytics** &nbsp;·&nbsp; `Sept 2025 – Nov 2025`
+
 - 📊 Built **Power BI & Excel dashboards** tracking S&T budgets, innovation programs & policy indicators for *"India's S&T Landscape 2025"*
 - 🤖 **Automated extraction, cleaning & normalization** of multi-departmental datasets via Python — cutting manual effort by **50%**
 - 📝 Translated stakeholder requirements into structured analytical workflows and policy-ready documentation
 
-### 🗄️ AlgoStrauss IT Services and Consulting LLP — *Database Engineer Intern* `Sept 2024 – Nov 2024`
+</td></tr>
+<tr><td>
+
+### 🗄️ AlgoStrauss IT Services and Consulting LLP
+**Database Engineer Intern** &nbsp;·&nbsp; `Sept 2024 – Nov 2024`
+
 - ⚙️ Optimized **SQL workflows across 100K+ records** via query refactoring, joins, subqueries & indexing
 - 🚀 Improved **query response time by 20%** and strengthened reporting reliability
 - 📑 Documented SQL logic and validation rules for maintainable, team-ready data workflows
 
-### 🔬 Ghadai Technology — *Data Analyst Intern, Healthcare Analytics (Hybrid)* `Jul 2024 – Sept 2024`
+</td></tr>
+<tr><td>
+
+### 🔬 Ghadai Technology
+**Data Analyst Intern, Healthcare Analytics (Hybrid)** &nbsp;·&nbsp; `Jul 2024 – Sept 2024`
+
 - 🏥 Built **Python validation workflows** across 5+ healthcare datasets, improving data integrity by **25%**
 - 📉 Developed **KPI dashboards** using Power BI/Tableau for stakeholder decision-making
 - 🔍 Applied data cleaning & anomaly detection techniques for structured healthcare reporting
 
+</td></tr>
+</table>
+
+<details>
+<summary align="center"><b>🗓️ View as Timeline</b></summary>
+
+```mermaid
+timeline
+    title Career Timeline
+    Jul 2024 - Sept 2024 : Ghadai Technology
+                          : Data Analyst Intern (Healthcare)
+    Sept 2024 - Nov 2024  : AlgoStrauss IT Services
+                          : Database Engineer Intern
+    Sept 2025 - Nov 2025  : NITI AAYOG
+                          : S&T Research Intern
+    Jan 2026 - Present    : Hestabit Technologies
+                          : SWE Intern, AI/ML & Backend
+```
+
+</details>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
 ## 🚀 Featured Projects
+
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100%" height="4">
 
 <table>
   <tr>
@@ -131,17 +202,28 @@ prateek = {
       <img src="https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square"/>
       <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
     </td>
-    <td width="50%"></td>
+    <td width="50%" align="center" valign="middle">
+      <br/>
+      <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="120"/>
+      <p><i>🧪 Research paper (under review) — see below ⬇️</i></p>
+    </td>
   </tr>
 </table>
 
+<div align="center">
+
 > 🧪 **Research (Under Review):** *Multimodal Agentic AI Platform for Mental Wellness Analytics* — exploring emotion-aware interaction, agentic workflows, persistent memory & responsible AI-based support systems.
+
+</div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
 ## 🛠️ Tech Stack
 
-### 🤖 AI / LLM / Agentic Systems
+<div align="center">
+
+**🤖 AI / LLM / Agentic Systems**
+
 ![RAG](https://img.shields.io/badge/RAG_Pipelines-A855F7?style=for-the-badge)
 ![LLM](https://img.shields.io/badge/LLM_Applications-A78BFA?style=for-the-badge)
 ![Agentic AI](https://img.shields.io/badge/Agentic_AI-8B5CF6?style=for-the-badge)
@@ -150,66 +232,66 @@ prateek = {
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
-### 🧠 Machine Learning / Deep Learning
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+<br/>
 
-### ⚙️ Backend & APIs
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+**🧠 Machine Learning / Deep Learning**
 
-### 📊 Data, BI & Databases
+<img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,opencv,numpy,pandas,r&theme=dark" />
+<img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white"/>
+<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white"/>
+
+<br/><br/>
+
+**⚙️ Backend & APIs**
+
+<img src="https://skillicons.dev/icons?i=flask,fastapi,java,postman&theme=dark" />
+<img src="https://img.shields.io/badge/REST_APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
+
+<br/><br/>
+
+**📊 Data, BI & Databases**
+
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb&theme=dark" />
 ![Power Bi](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=for-the-badge&logo=mongodb&logoColor=white)
 
-### 💻 Core Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<br/><br/>
 
-### ☁️ Cloud, DevOps & Tools
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![OCI](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+**💻 Core Languages**
+
+<img src="https://skillicons.dev/icons?i=c,java,typescript,javascript,php,html,css&theme=dark" />
+<img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=amazon-dynamodb&logoColor=white"/>
+
+<br/><br/>
+
+**☁️ Cloud, DevOps & Tools**
+
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,git,githubactions,vscode&theme=dark" />
+<img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
+
+</div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats & Activity
 
 <div align="center">
 
-![Prateek's GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Prateeksingh84&theme=synthwave)<br/>
-![GitHub Streak](https://streak-stats.demolab.com?user=Prateeksingh84&theme=synthwave&hide_border=false)<br/>
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Prateeksingh84&theme=synthwave)
+<img src="https://github-readme-stats.vercel.app/api?username=Prateeksingh84&show_icons=true&theme=synthwave&hide_border=true&count_private=true" height="165"/>
+<img src="https://streak-stats.demolab.com?user=Prateeksingh84&theme=synthwave&hide_border=true" height="165"/>
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prateeksingh84&layout=compact&theme=synthwave&hide_border=true" height="165"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Prateeksingh84&theme=darkhub&no-frame=true&column=4&margin-w=8&margin-h=8" height="165"/>
 
 </div>
 
 <div align="center">
+
+### 📈 Activity Graph
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Prateeksingh84&theme=react-dark&hide_border=true&area=true)
 
@@ -218,11 +300,14 @@ prateek = {
 <div align="center">
 
 ### 🐍 Contribution Snake
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prateeksingh84/Prateeksingh84/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prateeksingh84/Prateeksingh84/output/github-snake.svg" />
   <img src="https://raw.githubusercontent.com/Prateeksingh84/Prateeksingh84/output/github-snake.svg" width="100%" />
 </picture>
+
+<sub>✅ Refreshes automatically every 6 hours via GitHub Actions</sub>
 
 </div>
 
@@ -230,8 +315,10 @@ prateek = {
 
 ## 🎓 Certifications
 
-| Certificate | Issuer |
-|---|---|
+<div align="center">
+
+| 🏅 Certificate | 🏢 Issuer |
+|:---|:---|
 | 🧠 OCI Data Science Professional | Oracle |
 | 🤖 Artificial Intelligence Analyst | IBM |
 | 💬 Technovate 2.0: Build Your Own Chatbots | IBM |
@@ -240,15 +327,35 @@ prateek = {
 | 📈 Data Analytics Job Simulation | Deloitte Australia – Forage |
 | 🔬 Oracle Professional: Data Science | Oracle |
 
-**Relevant Learning:** ML Pipeline Development · Model Evaluation · Cloud AI Fundamentals · HIPAA Awareness · ISO 27001 Awareness
+</div>
+
+<div align="center">
+
+**🧭 Relevant Learning**
+
+![ML Pipelines](https://img.shields.io/badge/ML_Pipeline_Development-333333?style=flat-square)
+![Model Eval](https://img.shields.io/badge/Model_Evaluation-333333?style=flat-square)
+![Cloud AI](https://img.shields.io/badge/Cloud_AI_Fundamentals-333333?style=flat-square)
+![HIPAA](https://img.shields.io/badge/HIPAA_Awareness-333333?style=flat-square)
+![ISO](https://img.shields.io/badge/ISO_27001_Awareness-333333?style=flat-square)
+
+</div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
 ## 🏅 Responsibilities & Leadership
 
-- 🎯 **Vice President** — AILYTICS CLUB, SRMUH *(2025 – 2026)* — Led AI workshops, hackathons & mentoring for 100+ students
-- 🎪 **Head of Events & Management** — E-CELL, SRMUH *(2024 – 2025)*
-- 🪖 **CDT** — NCC 12 HR BT *(2022 – 2025)*
+<div align="center">
+
+| Role | Organization | Duration |
+|:---|:---|:---|
+| 🎯 **Vice President** | AILYTICS CLUB, SRMUH | `2025 – 2026` |
+| 🎪 **Head of Events & Management** | E-CELL, SRMUH | `2024 – 2025` |
+| 🪖 **CDT** | NCC 12 HR BT | `2022 – 2025` |
+
+<sub>Led AI workshops, hackathons & mentoring initiatives for 100+ students</sub>
+
+</div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
@@ -264,14 +371,14 @@ prateek = {
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1500&color=A78BFA&center=true&vCenter=true&width=600&lines=Thanks+for+stopping+by!+%E2%9A%A1;Let%27s+build+something+with+AI+together+%F0%9F%A4%9D)
 
+<br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="450">
+
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=150&section=footer" />
 
 <div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" />
-
-*"Every dataset tells a story. I make sure it's worth reading."*
-
+<i>"Every dataset tells a story. I make sure it's worth reading."</i>
 </div>
-
-<sub>✅ Snake animation is live, refreshing automatically every 6 hours via GitHub Actions.</sub>
