@@ -88,6 +88,8 @@ print(prateek["role"])
 <table>
 <tr><td>
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:6D28D9,100:A78BFA&height=6&section=header" />
+
 ### 🏢 Hestabit Technologies Pvt. Ltd.
 **Software Engineer Intern, AI/ML & Backend** &nbsp;·&nbsp; `Jan 2026 – Present`
 
@@ -99,6 +101,8 @@ print(prateek["role"])
 </td></tr>
 <tr><td>
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1D4ED8,100:60A5FA&height=6&section=header" />
+
 ### 🏛️ NITI AAYOG (Ministry of Home Affairs)
 **S&T Research Intern, Data Automation & Analytics** &nbsp;·&nbsp; `Sept 2025 – Nov 2025`
 
@@ -109,6 +113,8 @@ print(prateek["role"])
 </td></tr>
 <tr><td>
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D9488,100:5EEAD4&height=6&section=header" />
+
 ### 🗄️ AlgoStrauss IT Services and Consulting LLP
 **Database Engineer Intern** &nbsp;·&nbsp; `Sept 2024 – Nov 2024`
 
@@ -118,6 +124,8 @@ print(prateek["role"])
 
 </td></tr>
 <tr><td>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:D97706,100:FCD34D&height=6&section=header" />
 
 ### 🔬 Ghadai Technology
 **Data Analyst Intern, Healthcare Analytics (Hybrid)** &nbsp;·&nbsp; `Jul 2024 – Sept 2024`
