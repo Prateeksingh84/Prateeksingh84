@@ -53,9 +53,9 @@ print(prateek["role"])
 </td>
 <td width="45%" valign="top" align="center">
 
-<img src="https://raw.githubusercontent.com/DenverCoder1/readme-typing-svg/master/assets/gifs/hello-wave.gif" width="60"/>
+<img src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" width="100%">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<sub>🤖 AI/ML in motion</sub>
 
 </td>
 </tr>
@@ -253,9 +253,10 @@ timeline
 **📊 Data, BI & Databases**
 
 <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb&theme=dark" />
-![Power Bi](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+<br/><br/>
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" />
+<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
 
 <br/><br/>
 
@@ -279,13 +280,15 @@ timeline
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Prateeksingh84&show_icons=true&theme=synthwave&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Prateeksingh84&show_icons=true&theme=synthwave&hide_border=true&cache_seconds=1800" height="165"/>
 <img src="https://streak-stats.demolab.com?user=Prateeksingh84&theme=synthwave&hide_border=true" height="165"/>
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prateeksingh84&layout=compact&theme=synthwave&hide_border=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prateeksingh84&layout=compact&theme=synthwave&hide_border=true&cache_seconds=1800" height="165"/>
 <img src="https://github-profile-trophy.vercel.app/?username=Prateeksingh84&theme=darkhub&no-frame=true&column=4&margin-w=8&margin-h=8" height="165"/>
+
+<sub>⏳ These cards are generated live by third-party services and can take a few seconds — or a refresh — to load.</sub>
 
 </div>
 
@@ -308,6 +311,8 @@ timeline
 </picture>
 
 <sub>✅ Refreshes automatically every 6 hours via GitHub Actions</sub>
+<br/>
+<sub>⚠️ Requires the <a href="https://github.com/Platane/snk">Platane/snk</a> action set up on a repo named <code>Prateeksingh84/Prateeksingh84</code> generating to the <code>output</code> branch — until that's added, this box stays empty.</sub>
 
 </div>
 
