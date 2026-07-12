@@ -1,10 +1,11 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,25:1a1a3e,50:302b63,75:1a1a3e,100:0a0e27&height=260&section=header&text=PRATEEK%20SINGH&fontSize=56&fontColor=ffffff&fontAlignY=34&desc=AI%2FML%20Engineer%20%7C%20GenAI%20Developer%20%7C%20Software%20Engineer&descAlignY=52&descSize=18&animation=fadeIn" />
-
-<!-- Typing Animation -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=750&lines=%F0%9F%A4%96+Building+RAG+Pipelines+%26+LLM+Apps;%F0%9F%A7%A0+Designing+Multi-Agent+AI+Systems;%E2%9A%A1+Shipping+Production-Style+ML+Pipelines;%F0%9F%93%8A+Turning+Raw+Data+into+Real+Decisions;%F0%9F%9A%80+B.Tech+CSE+%7C+DSAI+%7C+SRM+University)](https://git.io/typing-svg)
+<!-- Premium Animated Hero Banner (SMIL SVG, dark/light aware) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg" />
+  <img src="./dark.svg" width="100%" alt="Prateek Singh — AI/ML Engineer, GenAI Developer, Software Engineer" />
+</picture>
 
 <br/>
 
