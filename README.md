@@ -288,7 +288,15 @@ timeline
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prateeksingh84&layout=compact&theme=synthwave&hide_border=true&cache_seconds=1800" height="165"/>
 <img src="https://github-profile-trophy.vercel.app/?username=Prateeksingh84&theme=darkhub&no-frame=true&column=4&margin-w=8&margin-h=8" height="165"/>
 
-<sub>⏳ These cards are generated live by third-party services and can take a few seconds — or a refresh — to load.</sub>
+<br/>
+
+<sub>⚠️ These cards call the public <code>github-readme-stats.vercel.app</code> / <code>github-profile-trophy.vercel.app</code> services, which are shared by thousands of profiles and frequently rate-limited — that's why they sometimes render as broken icons. The permanent fix is to self-host your own instance (free, one click):</sub>
+
+<br/><br/>
+
+[![Deploy to Vercel](https://vercel.com/button)](https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own-vercel-instance)
+
+<sub>Once deployed, replace <code>github-readme-stats.vercel.app</code> above with your own <code>*.vercel.app</code> domain and the cards will render reliably every time.</sub>
 
 </div>
 
@@ -310,9 +318,14 @@ timeline
   <img src="https://raw.githubusercontent.com/Prateeksingh84/Prateeksingh84/output/github-snake.svg" width="100%" />
 </picture>
 
-<sub>✅ Refreshes automatically every 6 hours via GitHub Actions</sub>
+<sub>✅ Refreshes automatically every 6 hours via GitHub Actions once set up:</sub>
+
 <br/>
-<sub>⚠️ Requires the <a href="https://github.com/Platane/snk">Platane/snk</a> action set up on a repo named <code>Prateeksingh84/Prateeksingh84</code> generating to the <code>output</code> branch — until that's added, this box stays empty.</sub>
+
+<sub>1️⃣ Create a repo named exactly <code>Prateeksingh84/Prateeksingh84</code> (this is what makes it a GitHub profile README repo)<br/>
+2️⃣ Add the workflow file at <code>.github/workflows/snake.yml</code> (provided alongside this README — <code>snake.yml</code>)<br/>
+3️⃣ Go to the repo's <b>Actions</b> tab → run <b>"Generate Snake Animation"</b> once manually (Run workflow button)<br/>
+4️⃣ It creates an <code>output</code> branch containing <code>github-snake.svg</code> — after that, the embed below renders automatically and refreshes every 6 hours</sub>
 
 </div>
 
