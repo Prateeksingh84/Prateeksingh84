@@ -1,0 +1,304 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Prateek Singh - AI/ML Engineer">
+<defs>
+
+    <clipPath id="rootClip"><rect x="0" y="0" width="1180" height="610" rx="28"/></clipPath>
+    <clipPath id="leftClip"><rect x="32" y="32" width="416" height="546" rx="20"/></clipPath>
+    <clipPath id="rightClip"><rect x="472" y="32" width="676" height="546" rx="20"/></clipPath>
+    
+
+    <radialGradient id="bgGlowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bgGlowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bgGlowC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+    
+
+    <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED">
+        <animate attributeName="stop-color" values="#7C3AED;#22D3EE;#10B981;#7C3AED" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#22D3EE">
+        <animate attributeName="stop-color" values="#22D3EE;#10B981;#7C3AED;#22D3EE" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#7C3AED;#22D3EE;#10B981" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <animateTransform attributeName="gradientTransform" type="rotate"
+        values="0 0.5 0.5;360 0.5 0.5" dur="14s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#10B981"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-0.3 0;0.3 0;-0.3 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="borderShimmer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,.08)" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#7C3AED" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,.08)" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="rotate"
+        values="0 0.5 0.5;360 0.5 0.5" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.18"/>
+    </linearGradient>
+
+    <filter id="glowSoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowBig" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="blurPanel" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <filter id="noiseF" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="n"/>
+      <feColorMatrix in="n" type="matrix"
+        values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.02 0"/>
+    </filter>
+    
+</defs>
+<g clip-path="url(#rootClip)">
+<rect x="0" y="0" width="1180" height="610" fill="#030712"/>
+
+    <circle cx="120" cy="120" r="220" fill="url(#bgGlowA)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 30 20; 0 0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1040" cy="140" r="260" fill="url(#bgGlowB)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -25 25; 0 0" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="560" r="300" fill="url(#bgGlowC)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 20 -20; 0 0" dur="13s" repeatCount="indefinite"/>
+    </circle>
+    
+<rect x="0" y="0" width="1180" height="610" filter="url(#noiseF)" opacity="0.5"/>
+<g>
+<circle cx="248" cy="45" r="1.7" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="5.2s" begin="2.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -28;0 0" dur="5.2s" begin="2.9s" repeatCount="indefinite"/></circle>
+<circle cx="1136" cy="109" r="1.5" fill="#7C3AED" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="4.2s" begin="0.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -25;0 0" dur="4.2s" begin="0.9s" repeatCount="indefinite"/></circle>
+<circle cx="1054" cy="47" r="1.5" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="7.6s" begin="1.7s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -54;0 0" dur="7.6s" begin="1.7s" repeatCount="indefinite"/></circle>
+<circle cx="939" cy="304" r="1.8" fill="#7C3AED" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="4.0s" begin="2.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -30;0 0" dur="4.0s" begin="2.8s" repeatCount="indefinite"/></circle>
+<circle cx="716" cy="304" r="1.0" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="8.8s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -41;0 0" dur="8.8s" begin="0.4s" repeatCount="indefinite"/></circle>
+<circle cx="798" cy="119" r="1.2" fill="#7C3AED" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="5.7s" begin="3.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -36;0 0" dur="5.7s" begin="3.2s" repeatCount="indefinite"/></circle>
+<circle cx="960" cy="569" r="0.9" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="8.6s" begin="2.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -25;0 0" dur="8.6s" begin="2.2s" repeatCount="indefinite"/></circle>
+<circle cx="760" cy="216" r="1.6" fill="#7C3AED" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="4.2s" begin="3.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -34;0 0" dur="4.2s" begin="3.1s" repeatCount="indefinite"/></circle>
+<circle cx="183" cy="258" r="1.8" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="5.9s" begin="2.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -49;0 0" dur="5.9s" begin="2.5s" repeatCount="indefinite"/></circle>
+<circle cx="767" cy="186" r="1.2" fill="#7C3AED" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="5.0s" begin="2.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -37;0 0" dur="5.0s" begin="2.8s" repeatCount="indefinite"/></circle>
+<circle cx="166" cy="195" r="1.4" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="5.2s" begin="1.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -49;0 0" dur="5.2s" begin="1.5s" repeatCount="indefinite"/></circle>
+<circle cx="1160" cy="244" r="1.6" fill="#7C3AED" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="8.2s" begin="0.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -23;0 0" dur="8.2s" begin="0.9s" repeatCount="indefinite"/></circle>
+<circle cx="85" cy="343" r="1.3" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="4.3s" begin="3.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -56;0 0" dur="4.3s" begin="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="664" cy="237" r="1.6" fill="#7C3AED" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="6.0s" begin="0.6s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -49;0 0" dur="6.0s" begin="0.6s" repeatCount="indefinite"/></circle>
+<circle cx="305" cy="272" r="1.7" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="6.7s" begin="1.7s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -57;0 0" dur="6.7s" begin="1.7s" repeatCount="indefinite"/></circle>
+<circle cx="837" cy="390" r="1.1" fill="#7C3AED" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="9.0s" begin="2.0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -52;0 0" dur="9.0s" begin="2.0s" repeatCount="indefinite"/></circle>
+<circle cx="116" cy="132" r="1.0" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="4.8s" begin="2.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -47;0 0" dur="4.8s" begin="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="808" cy="410" r="1.5" fill="#7C3AED" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="6.3s" begin="3.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -36;0 0" dur="6.3s" begin="3.9s" repeatCount="indefinite"/></circle>
+<circle cx="43" cy="137" r="1.6" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="6.7s" begin="3.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -37;0 0" dur="6.7s" begin="3.1s" repeatCount="indefinite"/></circle>
+<circle cx="716" cy="134" r="1.2" fill="#7C3AED" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="4.8s" begin="3.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -20;0 0" dur="4.8s" begin="3.8s" repeatCount="indefinite"/></circle>
+<circle cx="559" cy="532" r="1.7" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="6.5s" begin="3.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -26;0 0" dur="6.5s" begin="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="631" cy="539" r="1.5" fill="#7C3AED" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="4.8s" begin="2.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -30;0 0" dur="4.8s" begin="2.2s" repeatCount="indefinite"/></circle>
+<circle cx="1106" cy="20" r="1.5" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="6.4s" begin="3.7s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -27;0 0" dur="6.4s" begin="3.7s" repeatCount="indefinite"/></circle>
+<circle cx="649" cy="265" r="0.9" fill="#7C3AED" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="8.4s" begin="0.3s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -25;0 0" dur="8.4s" begin="0.3s" repeatCount="indefinite"/></circle>
+<circle cx="1015" cy="90" r="2.0" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="6.7s" begin="0.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -28;0 0" dur="6.7s" begin="0.5s" repeatCount="indefinite"/></circle>
+<circle cx="993" cy="582" r="1.0" fill="#7C3AED" opacity="0"><animate attributeName="opacity" values="0;0.8;0" dur="6.6s" begin="1.7s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -58;0 0" dur="6.6s" begin="1.7s" repeatCount="indefinite"/></circle>
+</g>
+<rect x="1.5" y="1.5" width="1177" height="607" rx="27" fill="none" stroke="url(#borderShimmer)" stroke-width="1.6"/>
+<rect x="1.5" y="1.5" width="1177" height="607" rx="27" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<g>
+<rect x="32" y="32" width="416" height="546" rx="20" fill="#0F172A" fill-opacity="0.55"/>
+<rect x="32" y="32" width="416" height="546" rx="20" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<path d="M 48 34 Q 240.0 18 432 34 L 432 72 Q 240.0 56 48 72 Z" fill="#F8FAFC" opacity="0.04"/>
+<g clip-path="url(#leftClip)">
+<rect x="32" y="32" width="416" height="38" fill="#0F172A" fill-opacity="0.7"/>
+<line x1="32" y1="70" x2="448" y2="70" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<circle cx="54" cy="51" r="5.5" fill="#FF5F56"/>
+<circle cx="72" cy="51" r="5.5" fill="#FFBD2E"/>
+<circle cx="90" cy="51" r="5.5" fill="#27C93F"/>
+<text x="240.0" y="56" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="12" fill="#94A3B8">ascii_portrait.sh</text>
+<g transform="translate(0,0)">
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" repeatCount="indefinite" additive="sum"/>
+<text x="66.52800000000002" y="107.12" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0;0.0125;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>                                 .+==-..</text>
+<text x="66.52800000000002" y="122.56" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0125;0.025;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>                 +-       :..:....:==-:::==-</text>
+<text x="66.52800000000002" y="138.0" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.025;0.0375;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>                  -+-   ::::--*+==--..:::-==-+.</text>
+<text x="66.52800000000002" y="153.44" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0375;0.05;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>                   --+=-::::--=+=**==+...:::==*=</text>
+<text x="66.52800000000002" y="168.88" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.05;0.0625;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>                 :  --=-:    ..::-++*+=::..::--==</text>
+<text x="66.52800000000002" y="184.32" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0625;0.075;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>            :     ::-::-:::  .--:.=*+**===-..   ==</text>
+<text x="66.52800000000002" y="199.76" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.075;0.0875;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>           .::  :::--   .:+*-:::.. ++=**===-.  :*=</text>
+<text x="66.52800000000002" y="215.2" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0875;0.1;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>            ..::::.+-.  .=+++-     =****===-.  =*+</text>
+<text x="66.52800000000002" y="230.64" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1;0.1125;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>          .:.  :...--.+====+=:.:::===*====-:.  ==#+</text>
+<text x="66.52800000000002" y="246.08" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1125;0.125;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>           ::    .:-: ==::.....:::=..-===--. ..:=##</text>
+<text x="66.52800000000002" y="261.52" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.125;0.1375;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>                  :::  .       :.:: @@%=::......++-:</text>
+<text x="66.52800000000002" y="276.96000000000004" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1375;0.15;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>              .   :-:          .  ::-@%=+=::..+++--</text>
+<text x="66.52800000000002" y="292.4" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.15;0.1625;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>             +-.  +-.              :--====:   =+=-</text>
+<text x="66.52800000000002" y="307.84000000000003" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1625;0.175;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>            ++:...::          :      -:       ++=</text>
+<text x="66.52800000000002" y="323.28" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.175;0.1875;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>           :-::..::..         ::..    :       +++ .</text>
+<text x="66.52800000000002" y="338.72" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1875;0.2;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>         -::....::  .  .:      :::    ..     +++:::</text>
+<text x="66.52800000000002" y="354.15999999999997" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2;0.2125;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>       +=-.....:::----:::...    :..:  ::..  :==:.::</text>
+<text x="66.52800000000002" y="369.6" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2125;0.225;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>      :=:..:-==:::----:::......   .:---:::-++=:...</text>
+<text x="66.52800000000002" y="385.04" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.225;0.2375;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>     .==   :-===*=:::::::::......  ..---::-*+=-:.</text>
+<text x="66.52800000000002" y="400.48" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2375;0.25;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>      ::      :===-+=.    :.    .     :-:...=--=-.</text>
+<text x="66.52800000000002" y="415.92" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.2625;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>      ..         ..-=--=   ....               ::--</text>
+<text x="66.52800000000002" y="431.36" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2625;0.275;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>                     .-=   ...:. ..::      =  ::::</text>
+<text x="66.52800000000002" y="446.8" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.275;0.2875;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>                             .--..:::..   ..=  .:</text>
+<text x="66.52800000000002" y="462.24" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2875;0.3;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>                 ::           .-.    ...  ..::</text>
+<text x="66.52800000000002" y="477.68" font-family="'Fira Code', Consolas, monospace" font-size="11.12" fill="url(#asciiGrad)" filter="url(#glowSoft)" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3;0.3125;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>                                      .     .</text>
+<text x="62" y="517.12" font-family="'Fira Code', Consolas, monospace" font-size="13" fill="#94A3B8" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3312;0.35;0.8438;0.8938;1" dur="16.0s" repeatCount="indefinite"/>&gt; system.status = <tspan fill="#7C3AED">ONLINE</tspan></text>
+<rect x="280" y="506.12" width="8" height="14" fill="#22D3EE"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+</g>
+<rect x="32" y="32" width="416" height="3" fill="url(#scanGrad)"><animateTransform attributeName="transform" type="translate" values="0 0;0 546;0 0" dur="6s" repeatCount="indefinite"/></rect>
+<rect x="56" y="532" width="164" height="30" rx="15" fill="url(#pillGrad)" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<circle cx="72" cy="547" r="4" fill="#7C3AED"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+<text x="84" y="551" font-family="'Fira Code', Consolas, monospace" font-size="11.5" fill="#F8FAFC">OPEN&#160;TO&#160;WORK</text>
+</g>
+</g>
+<g>
+<rect x="472" y="32" width="676" height="546" rx="20" fill="#0F172A" fill-opacity="0.55"/>
+<rect x="472" y="32" width="676" height="546" rx="20" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<path d="M 488 34 Q 810.0 18 1132 34 L 1132 72 Q 810.0 56 488 72 Z" fill="#F8FAFC" opacity="0.04"/>
+<g clip-path="url(#rightClip)">
+<rect x="472" y="32" width="676" height="38" fill="#0F172A" fill-opacity="0.7"/>
+<line x1="472" y1="70" x2="1148" y2="70" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<circle cx="494" cy="51" r="5.5" fill="#FF5F56"/>
+<circle cx="512" cy="51" r="5.5" fill="#FFBD2E"/>
+<circle cx="530" cy="51" r="5.5" fill="#27C93F"/>
+<text x="810.0" y="56" text-anchor="middle" font-family="Consolas, Monaco, monospace" font-size="12" fill="#94A3B8">prateek@dev:~$</text>
+<text x="512" y="110" font-family="'Fira Code', Consolas, monospace" font-size="22" fill="#94A3B8" opacity="0">Hi<animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.2s" fill="freeze"/></text>
+<text x="546" y="110" font-size="20" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.2s" fill="freeze"/>👋<animateTransform attributeName="transform" type="rotate" values="0 554 104;18 554 104;-10 554 104;18 554 104;0 554 104" dur="2.4s" begin="0.9s" repeatCount="indefinite"/></text>
+<text x="512" y="156" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" font-size="34" fill="url(#nameGrad)" opacity="0">I'm Prateek Singh<animate attributeName="opacity" from="0" to="1" dur="0.7s" begin="0.9s" fill="freeze"/></text>
+<text x="512" y="198" font-family="'Fira Code', Consolas, monospace" font-size="18" fill="#94A3B8" opacity="0">&gt;<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.6s" fill="freeze"/></text>
+<clipPath id="roleClip0"><rect x="532" y="178" height="26" width="0"><animate attributeName="width" values="0;0;151.6;151.6;0;0;0" keyTimes="0;0.0001;0.07;0.16;0.19;0.2;1" dur="15.0s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#roleClip0)"><text x="532" y="198" font-family="'Fira Code', Consolas, monospace" font-size="18" font-weight="600" fill="#22D3EE" opacity="0">AI/ML Engineer<animate attributeName="opacity" values="0;1;1;1;1;0;0" keyTimes="0;0.0001;0.07;0.16;0.19;0.2;1" dur="15.0s" repeatCount="indefinite"/></text></g>
+<clipPath id="roleClip1"><rect x="532" y="178" height="26" width="0"><animate attributeName="width" values="0;0;162.0;162.0;0;0;0" keyTimes="0;0.2;0.27;0.36;0.39;0.4;1" dur="15.0s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#roleClip1)"><text x="532" y="198" font-family="'Fira Code', Consolas, monospace" font-size="18" font-weight="600" fill="#22D3EE" opacity="0">GenAI Developer<animate attributeName="opacity" values="0;1;1;1;1;0;0" keyTimes="0;0.2;0.27;0.36;0.39;0.4;1" dur="15.0s" repeatCount="indefinite"/></text></g>
+<clipPath id="roleClip2"><rect x="532" y="178" height="26" width="0"><animate attributeName="width" values="0;0;182.8;182.8;0;0;0" keyTimes="0;0.4;0.47;0.56;0.59;0.6;1" dur="15.0s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#roleClip2)"><text x="532" y="198" font-family="'Fira Code', Consolas, monospace" font-size="18" font-weight="600" fill="#22D3EE" opacity="0">Software Engineer<animate attributeName="opacity" values="0;1;1;1;1;0;0" keyTimes="0;0.4;0.47;0.56;0.59;0.6;1" dur="15.0s" repeatCount="indefinite"/></text></g>
+<clipPath id="roleClip3"><rect x="532" y="178" height="26" width="0"><animate attributeName="width" values="0;0;214.0;214.0;0;0;0" keyTimes="0;0.6;0.67;0.76;0.79;0.8;1" dur="15.0s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#roleClip3)"><text x="532" y="198" font-family="'Fira Code', Consolas, monospace" font-size="18" font-weight="600" fill="#22D3EE" opacity="0">RAG Pipeline Builder<animate attributeName="opacity" values="0;1;1;1;1;0;0" keyTimes="0;0.6;0.67;0.76;0.79;0.8;1" dur="15.0s" repeatCount="indefinite"/></text></g>
+<clipPath id="roleClip4"><rect x="532" y="178" height="26" width="0"><animate attributeName="width" values="0;0;245.20000000000002;245.20000000000002;0;0;0" keyTimes="0;0.8;0.87;0.96;0.99;0.9999;1" dur="15.0s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#roleClip4)"><text x="532" y="198" font-family="'Fira Code', Consolas, monospace" font-size="18" font-weight="600" fill="#22D3EE" opacity="0">Open Source Contributor<animate attributeName="opacity" values="0;1;1;1;1;0;0" keyTimes="0;0.8;0.87;0.96;0.99;0.9999;1" dur="15.0s" repeatCount="indefinite"/></text></g>
+<rect x="540" y="182" width="9" height="20" fill="#7C3AED" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0" dur="15.0s" begin="1.6s" repeatCount="indefinite"/><animate attributeName="x" values="540;779.2" dur="0.01s" begin="1.6s" fill="freeze"/></rect>
+<rect x="538" y="182" width="2.5" height="20" fill="#7C3AED" opacity="0.001"/>
+<line x1="512" y1="224" x2="1108" y2="224" stroke="rgba(255,255,255,.08)" stroke-width="1" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.4s" fill="freeze"/></line>
+<g opacity="0" transform="translate(-10,0)"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.6s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-10 0" to="0 0" dur="0.5s" begin="2.6s" fill="freeze" additive="replace"/>
+<circle cx="518" cy="253" r="3" fill="#22D3EE"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" begin="3.6s" repeatCount="indefinite"/></circle>
+<text x="532" y="258" font-family="'Fira Code', Consolas, monospace" font-size="13.5" fill="#94A3B8">Location:</text>
+<text x="632" y="258" font-family="'Fira Code', Consolas, monospace" font-size="13.5" fill="#F8FAFC">New Delhi, India</text>
+</g>
+<g opacity="0" transform="translate(-10,0)"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.7800000000000002s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-10 0" to="0 0" dur="0.5s" begin="2.7800000000000002s" fill="freeze" additive="replace"/>
+<circle cx="518" cy="283" r="3" fill="#22D3EE"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" begin="3.7800000000000002s" repeatCount="indefinite"/></circle>
+<text x="532" y="288" font-family="'Fira Code', Consolas, monospace" font-size="13.5" fill="#94A3B8">Education:</text>
+<text x="632" y="288" font-family="'Fira Code', Consolas, monospace" font-size="13.5" fill="#F8FAFC">B.Tech CSE (DSAI) · SRM University</text>
+</g>
+<g opacity="0" transform="translate(-10,0)"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.96s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-10 0" to="0 0" dur="0.5s" begin="2.96s" fill="freeze" additive="replace"/>
+<circle cx="518" cy="313" r="3" fill="#22D3EE"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" begin="3.96s" repeatCount="indefinite"/></circle>
+<text x="532" y="318" font-family="'Fira Code', Consolas, monospace" font-size="13.5" fill="#94A3B8">Focus:</text>
+<text x="632" y="318" font-family="'Fira Code', Consolas, monospace" font-size="13.5" fill="#F8FAFC">GenAI · RAG · Multi-Agent Systems</text>
+</g>
+<g opacity="0" transform="translate(-10,0)"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="3.14s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-10 0" to="0 0" dur="0.5s" begin="3.14s" fill="freeze" additive="replace"/>
+<circle cx="518" cy="343" r="3" fill="#22D3EE"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" begin="4.140000000000001s" repeatCount="indefinite"/></circle>
+<text x="532" y="348" font-family="'Fira Code', Consolas, monospace" font-size="13.5" fill="#94A3B8">Portfolio:</text>
+<text x="632" y="348" font-family="'Fira Code', Consolas, monospace" font-size="13.5" fill="#F8FAFC">github.com/Prateeksingh84</text>
+</g>
+<g opacity="0" transform="translate(-10,0)"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="3.3200000000000003s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-10 0" to="0 0" dur="0.5s" begin="3.3200000000000003s" fill="freeze" additive="replace"/>
+<circle cx="518" cy="373" r="3" fill="#22D3EE"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" begin="4.32s" repeatCount="indefinite"/></circle>
+<text x="532" y="378" font-family="'Fira Code', Consolas, monospace" font-size="13.5" fill="#94A3B8">Email:</text>
+<text x="632" y="378" font-family="'Fira Code', Consolas, monospace" font-size="13.5" fill="#F8FAFC">prathamgsingh@gmail.com</text>
+</g>
+<text x="512" y="438" font-family="'Fira Code', Consolas, monospace" font-size="13.5" fill="#94A3B8" opacity="0">SKILLS<animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="3.6s" fill="freeze"/></text>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.8s" fill="freeze"/>
+<rect x="512" y="456" width="73.8" height="30" rx="15" fill="url(#pillGrad)" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="1"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="3s" begin="4.8s" repeatCount="indefinite"/></rect>
+<text x="548.9" y="475" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="12.5" fill="#F8FAFC">Python</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.88s" fill="freeze"/>
+<rect x="595.8" y="456" width="81.1" height="30" rx="15" fill="url(#pillGrad)" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="1"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="3s" begin="4.88s" repeatCount="indefinite"/></rect>
+<text x="636.3499999999999" y="475" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="12.5" fill="#F8FAFC">PyTorch</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.96s" fill="freeze"/>
+<rect x="686.9" y="456" width="81.1" height="30" rx="15" fill="url(#pillGrad)" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="1"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="3s" begin="4.96s" repeatCount="indefinite"/></rect>
+<text x="727.4499999999999" y="475" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="12.5" fill="#F8FAFC">FastAPI</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="4.04s" fill="freeze"/>
+<rect x="778.0" y="456" width="66.5" height="30" rx="15" fill="url(#pillGrad)" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="1"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="3s" begin="5.04s" repeatCount="indefinite"/></rect>
+<text x="811.25" y="475" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="12.5" fill="#F8FAFC">React</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="4.12s" fill="freeze"/>
+<rect x="854.5" y="456" width="81.1" height="30" rx="15" fill="url(#pillGrad)" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="1"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="3s" begin="5.12s" repeatCount="indefinite"/></rect>
+<text x="895.05" y="475" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="12.5" fill="#F8FAFC">Next.js</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="4.2s" fill="freeze"/>
+<rect x="945.6" y="456" width="95.7" height="30" rx="15" fill="url(#pillGrad)" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="1"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="3s" begin="5.2s" repeatCount="indefinite"/></rect>
+<text x="993.45" y="475" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="12.5" fill="#F8FAFC">LangChain</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="4.279999999999999s" fill="freeze"/>
+<rect x="512" y="496" width="73.8" height="30" rx="15" fill="url(#pillGrad)" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="1"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="3s" begin="5.279999999999999s" repeatCount="indefinite"/></rect>
+<text x="548.9" y="515" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="12.5" fill="#F8FAFC">Docker</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="4.359999999999999s" fill="freeze"/>
+<rect x="595.8" y="496" width="103.0" height="30" rx="15" fill="url(#pillGrad)" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="1"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="3s" begin="5.359999999999999s" repeatCount="indefinite"/></rect>
+<text x="647.3" y="515" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="12.5" fill="#F8FAFC">PostgreSQL</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="4.4399999999999995s" fill="freeze"/>
+<rect x="708.8" y="496" width="51.9" height="30" rx="15" fill="url(#pillGrad)" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="1"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="3s" begin="5.4399999999999995s" repeatCount="indefinite"/></rect>
+<text x="734.75" y="515" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="12.5" fill="#F8FAFC">AWS</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="4.52s" fill="freeze"/>
+<rect x="770.6999999999999" y="496" width="51.9" height="30" rx="15" fill="url(#pillGrad)" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="1"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="3s" begin="5.52s" repeatCount="indefinite"/></rect>
+<text x="796.65" y="515" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="12.5" fill="#F8FAFC">Git</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="4.6s" fill="freeze"/>
+<rect x="832.5999999999999" y="496" width="66.5" height="30" rx="15" fill="url(#pillGrad)" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="1"><animate attributeName="stroke-opacity" values="0.35;0.85;0.35" dur="3s" begin="5.6s" repeatCount="indefinite"/></rect>
+<text x="865.8499999999999" y="515" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="12.5" fill="#F8FAFC">Figma</text>
+</g>
+<line x1="512" y1="542" x2="1108" y2="542" stroke="rgba(255,255,255,.08)" stroke-width="1" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="4.6s" fill="freeze"/></line>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="4.8s" fill="freeze"/>
+<circle cx="534" cy="566" r="21" fill="#0F172A" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<circle cx="534" cy="566" r="21" fill="none" stroke="#22D3EE" stroke-width="1.3" opacity="0.5"><animate attributeName="r" values="21;24;21" dur="2.6s" begin="5.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="2.6s" begin="5.8s" repeatCount="indefinite"/></circle>
+<text x="534" y="571" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC">GH</text>
+<text x="534" y="604" text-anchor="middle" font-family="Consolas, monospace" font-size="10" fill="#94A3B8">GitHub</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="4.92s" fill="freeze"/>
+<circle cx="608" cy="566" r="21" fill="#0F172A" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<circle cx="608" cy="566" r="21" fill="none" stroke="#22D3EE" stroke-width="1.3" opacity="0.5"><animate attributeName="r" values="21;24;21" dur="2.6s" begin="5.92s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="2.6s" begin="5.92s" repeatCount="indefinite"/></circle>
+<text x="608" y="571" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC">IN</text>
+<text x="608" y="604" text-anchor="middle" font-family="Consolas, monospace" font-size="10" fill="#94A3B8">LinkedIn</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="5.04s" fill="freeze"/>
+<circle cx="682" cy="566" r="21" fill="#0F172A" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<circle cx="682" cy="566" r="21" fill="none" stroke="#22D3EE" stroke-width="1.3" opacity="0.5"><animate attributeName="r" values="21;24;21" dur="2.6s" begin="6.04s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="2.6s" begin="6.04s" repeatCount="indefinite"/></circle>
+<text x="682" y="571" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC">X</text>
+<text x="682" y="604" text-anchor="middle" font-family="Consolas, monospace" font-size="10" fill="#94A3B8">X</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="5.16s" fill="freeze"/>
+<circle cx="756" cy="566" r="21" fill="#0F172A" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<circle cx="756" cy="566" r="21" fill="none" stroke="#22D3EE" stroke-width="1.3" opacity="0.5"><animate attributeName="r" values="21;24;21" dur="2.6s" begin="6.16s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="2.6s" begin="6.16s" repeatCount="indefinite"/></circle>
+<text x="756" y="571" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC">PF</text>
+<text x="756" y="604" text-anchor="middle" font-family="Consolas, monospace" font-size="10" fill="#94A3B8">Portfolio</text>
+</g>
+<rect x="472" y="32" width="676" height="3" fill="url(#scanGrad)"><animateTransform attributeName="transform" type="translate" values="0 0;0 546;0 0" dur="7.5s" begin="1s" repeatCount="indefinite"/></rect>
+</g>
+</g>
+</g>
+</svg>
