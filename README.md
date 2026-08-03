@@ -26,26 +26,77 @@
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Prateeksingh84&theme=tokyonight" alt="GitHub Profile Summary" />
+<table>
+<tr>
+<td align="center" width="25%">
+<h3>324+</h3>
+<b>Total Contributions</b><br/>
+<sub>Building consistently across AI/ML, backend, data, and automation projects</sub>
+</td>
+<td align="center" width="25%">
+<h3>AI/ML</h3>
+<b>Primary Focus</b><br/>
+<sub>GenAI, RAG, ML Engineering, Data Analytics</sub>
+</td>
+<td align="center" width="25%">
+<h3>Python</h3>
+<b>Core Language</b><br/>
+<sub>FastAPI, Flask, Pandas, NumPy, Scikit-learn</sub>
+</td>
+<td align="center" width="25%">
+<h3>2026</h3>
+<b>B.Tech CSE</b><br/>
+<sub>Data Science & AI specialization</sub>
+</td>
+</tr>
+</table>
 
-<br/><br/>
+<br/>
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Prateeksingh84&theme=tokyonight" alt="Repos Per Language" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Prateeksingh84&theme=tokyonight" alt="Most Commit Language" />
+<table>
+<tr>
+<td align="center" width="33%">
+<b>🚀 Featured Work</b><br/>
+NeuroSense AI<br/>
+n8n Multi-Agent Platform<br/>
+Zoomly Meetings
+</td>
+<td align="center" width="33%">
+<b>🧠 AI Stack</b><br/>
+LLM/RAG<br/>
+Prompt Engineering<br/>
+Agentic AI
+</td>
+<td align="center" width="33%">
+<b>⚙️ Engineering Stack</b><br/>
+FastAPI / Flask<br/>
+SQL / Supabase<br/>
+Docker / GitHub
+</td>
+</tr>
+</table>
 
-<br/><br/>
+<br/>
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Prateeksingh84&theme=tokyonight" alt="GitHub Stats" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Prateeksingh84&theme=tokyonight&utcOffset=5.5" alt="Productive Time" />
-
-<br/><br/>
-
-<img width="70%" src="https://streak-stats.demolab.com?user=Prateeksingh84&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Prateeksingh84&theme=react-dark&hide_border=true&area=true" width="100%" alt="Prateek Singh GitHub Activity Graph" />
 
 </div>
 
 <div align="center">
 
+### 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prateeksingh84/Prateeksingh84/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prateeksingh84/Prateeksingh84/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Prateeksingh84/Prateeksingh84/output/github-snake.svg" width="100%" alt="GitHub contribution snake animation" />
+</picture>
+
+<sub>Refreshes automatically via GitHub Actions after the snake workflow creates the output branch.</sub>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 ### 📈 Activity Graph
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Prateeksingh84&theme=tokyo-night&hide_border=true&area=true" alt="GitHub Activity Graph" />
@@ -158,4 +209,5 @@
 <div align="center">
 <i>"Every dataset tells a story. I build systems that help people understand it."</i>
 </div>
+
 
