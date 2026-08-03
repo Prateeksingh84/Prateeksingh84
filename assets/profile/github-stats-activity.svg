@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1448" height="1086" viewBox="0 0 1448 1086">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="55%" stop-color="#071225"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="greenLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5EFCA3"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="areaGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.04"/>
+    </linearGradient>
+    <filter id="glowGreen" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .title{font-family:Segoe UI,Inter,Arial,sans-serif;font-weight:800;fill:#F8FAFC}
+      .text{font-family:Segoe UI,Inter,Arial,sans-serif;fill:#E5E7EB}
+      .muted{font-family:Segoe UI,Inter,Arial,sans-serif;fill:#AEB8CC}
+      .small{font-family:Segoe UI,Inter,Arial,sans-serif;fill:#CBD5E1}
+      .card{fill:#071126;stroke-opacity:.88;stroke-width:1.4}
+      .grid{stroke:#334155;stroke-width:1;stroke-dasharray:4 6;opacity:.35}
+      .axis{font-family:Segoe UI,Inter,Arial,sans-serif;fill:#B7C2D8;font-size:15px}
+      .label{font-family:Segoe UI,Inter,Arial,sans-serif;fill:#DDE7F7;font-size:17px;font-weight:700}
+    </style>
+  </defs>
+
+  <rect width="1448" height="1086" fill="url(#bg)"/>
+
+  <!-- circuit accent -->
+  <g opacity=".55" fill="none" stroke="#8B5CF6" stroke-width="1.2">
+    <path d="M1190 72 H1300 L1344 28 H1418"/>
+    <path d="M1228 42 H1342 L1388 4 H1444"/>
+    <path d="M1282 92 H1374 L1414 54 H1448"/>
+    <circle cx="1300" cy="72" r="3" fill="#A78BFA"/>
+    <circle cx="1342" cy="42" r="3" fill="#A78BFA"/>
+    <circle cx="1374" cy="92" r="3" fill="#A78BFA"/>
+  </g>
+
+  <!-- Header -->
+  <rect x="24" y="18" width="62" height="62" rx="14" fill="#071126" stroke="#A78BFA"/>
+  <text x="38" y="58" class="title" font-size="30">🐙</text>
+  <text x="104" y="56" class="title" font-size="38">GitHub Stats &amp; Activity</text>
+  <rect x="104" y="72" width="400" height="4" rx="2" fill="url(#greenLine)"/>
+  <rect x="336" y="72" width="170" height="4" rx="2" fill="url(#purple)" opacity=".95"/>
+  <line x1="24" y1="92" x2="1422" y2="92" stroke="#334155"/>
+
+  <!-- Contributions card -->
+  <rect x="24" y="112" width="760" height="350" rx="18" class="card" stroke="#10B981"/>
+  <circle cx="78" cy="168" r="35" fill="#052E24" stroke="#34D399" stroke-width="2"/>
+  <path d="M57 183 L70 170 L82 178 L101 153" fill="none" stroke="#5EFCA3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M92 153 H101 V162" fill="none" stroke="#5EFCA3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="136" y="156" class="muted" font-size="18" letter-spacing="3">TOTAL CONTRIBUTIONS</text>
+  <text x="136" y="204" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="46" font-weight="900" fill="#5EFCA3">324+</text>
+  <text x="136" y="238" class="title" font-size="30">Total Contributions</text>
+
+  <!-- chart grid top -->
+  <g transform="translate(82,250)">
+    <line x1="0" y1="110" x2="640" y2="110" class="grid"/>
+    <line x1="0" y1="82" x2="640" y2="82" class="grid"/>
+    <line x1="0" y1="55" x2="640" y2="55" class="grid"/>
+    <line x1="0" y1="28" x2="640" y2="28" class="grid"/>
+    <line x1="0" y1="0" x2="0" y2="115" stroke="#64748B" opacity=".75"/>
+    <line x1="0" y1="115" x2="640" y2="115" stroke="#64748B" opacity=".35"/>
+    <text x="-34" y="116" class="axis">0</text><text x="-43" y="88" class="axis">25</text><text x="-43" y="61" class="axis">50</text><text x="-43" y="34" class="axis">75</text><text x="-52" y="7" class="axis">100</text>
+
+    <path d="M0 106 L67 82 L134 92 L201 55 L268 66 L335 40 L402 47 L469 21 L536 39 L603 15 L640 2 L640 115 L0 115 Z" fill="url(#areaGreen)"/>
+    <polyline points="0,106 67,82 134,92 201,55 268,66 335,40 402,47 469,21 536,39 603,15 640,2" fill="none" stroke="url(#greenLine)" stroke-width="5" filter="url(#glowGreen)" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#A7F3D0" stroke="#34D399" stroke-width="3">
+      <circle cx="0" cy="106" r="5"/><circle cx="67" cy="82" r="5"/><circle cx="134" cy="92" r="5"/><circle cx="201" cy="55" r="5"/>
+      <circle cx="268" cy="66" r="5"/><circle cx="335" cy="40" r="5"/><circle cx="402" cy="47" r="5"/><circle cx="469" cy="21" r="5"/>
+      <circle cx="536" cy="39" r="5"/><circle cx="603" cy="15" r="5"/><circle cx="640" cy="2" r="5"/>
+    </g>
+    <g class="axis">
+      <text x="-2" y="143">Feb</text><text x="58" y="143">Mar</text><text x="125" y="143">Apr</text><text x="192" y="143">May</text><text x="260" y="143">Jun</text><text x="328" y="143">Jul</text><text x="394" y="143">Aug</text><text x="462" y="143">Sep</text><text x="529" y="143">Oct</text><text x="595" y="143">Nov</text><text x="630" y="143">Jan</text>
+    </g>
+  </g>
+
+  <g transform="translate(54,402)">
+    <rect x="0" y="0" width="52" height="52" rx="10" fill="#031F1A" stroke="#10B981"/>
+    <text x="13" y="35" font-size="24" fill="#34D399" font-family="Consolas,monospace">&lt;/&gt;</text>
+    <text x="66" y="19" class="text" font-size="17">AI/ML • Backend</text><text x="66" y="43" class="text" font-size="17">Data • Automation</text>
+    <line x1="224" y1="2" x2="224" y2="51" stroke="#64748B" opacity=".55"/>
+    <rect x="250" y="0" width="52" height="52" rx="10" fill="#031F1A" stroke="#10B981"/>
+    <text x="264" y="35" font-size="28" fill="#34D399" font-family="Consolas,monospace">&gt;_</text>
+    <text x="316" y="17" font-size="17" fill="#5EFCA3" font-family="Segoe UI,Inter,Arial,sans-serif" font-weight="700">Building with</text>
+    <text x="316" y="41" class="text" font-size="16">Python, FastAPI, Flask, SQL, RAG</text>
+    <line x1="496" y1="2" x2="496" y2="51" stroke="#64748B" opacity=".55"/>
+    <rect x="522" y="0" width="52" height="52" rx="10" fill="#031B2F" stroke="#38BDF8"/>
+    <text x="535" y="35" font-size="25" fill="#38BDF8">👥</text>
+    <text x="588" y="17" class="text" font-size="16">Open to internships,</text>
+    <text x="588" y="40" class="text" font-size="16">full-time roles &amp; collaboration</text>
+  </g>
+
+  <!-- Streak card -->
+  <rect x="804" y="112" width="620" height="350" rx="18" class="card" stroke="#8B5CF6"/>
+  <circle cx="858" cy="168" r="35" fill="#171134" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="844" y="182" font-size="31">🔥</text>
+  <text x="912" y="156" class="muted" font-size="18" letter-spacing="3">CONTRIBUTION STREAK</text>
+  <text x="912" y="198" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="32" fill="#A78BFA" font-weight="900">Consistent Builder</text>
+  <circle cx="952" cy="304" r="93" fill="none" stroke="#1E293B" stroke-width="23"/>
+  <circle cx="952" cy="304" r="93" fill="none" stroke="url(#purple)" stroke-width="23" stroke-dasharray="520 585" stroke-linecap="round" transform="rotate(-90 952 304)" filter="url(#softGlow)"/>
+  <text x="900" y="313" class="title" font-size="44">96%</text>
+  <text x="902" y="344" class="text" font-size="20">Consistency</text>
+  <line x1="1085" y1="226" x2="1085" y2="394" stroke="#64748B" stroke-dasharray="5 6" opacity=".45"/>
+  <g transform="translate(1120,230)" class="text" font-size="18">
+    <text x="0" y="10" font-size="34" fill="#8B5CF6">⟳</text><text x="54" y="4">Focused on real-world</text><text x="54" y="30">AI/ML projects</text>
+    <text x="0" y="92" font-size="32" fill="#A78BFA">⚗</text><text x="54" y="86">Research prototypes •</text><text x="54" y="112">Dashboards • APIs</text>
+    <text x="0" y="172" font-size="31" fill="#8B5CF6">🐍</text><text x="54" y="166">Snake animation</text><text x="54" y="192">refreshes every 6 hours</text>
+  </g>
+
+  <!-- Top languages card -->
+  <rect x="24" y="480" width="760" height="300" rx="18" class="card" stroke="#2563EB"/>
+  <circle cx="78" cy="530" r="35" fill="#0A1C3A" stroke="#3B82F6" stroke-width="2"/>
+  <text x="56" y="540" font-size="26" fill="#60A5FA" font-family="Consolas,monospace">&lt;/&gt;</text>
+  <text x="122" y="523" class="muted" font-size="18" letter-spacing="3">TOP LANGUAGES</text>
+  <g transform="translate(94,602)">
+    <circle r="78" cx="0" cy="0" fill="none" stroke="#1D4ED8" stroke-width="38" stroke-dasharray="115 375" transform="rotate(-90)"/>
+    <circle r="78" cx="0" cy="0" fill="none" stroke="#A855F7" stroke-width="38" stroke-dasharray="70 420" stroke-dashoffset="-115" transform="rotate(-90)"/>
+    <circle r="78" cx="0" cy="0" fill="none" stroke="#22D3EE" stroke-width="38" stroke-dasharray="55 435" stroke-dashoffset="-185" transform="rotate(-90)"/>
+    <circle r="78" cx="0" cy="0" fill="none" stroke="#FB923C" stroke-width="38" stroke-dasharray="38 452" stroke-dashoffset="-240" transform="rotate(-90)"/>
+    <circle r="78" cx="0" cy="0" fill="none" stroke="#EC4899" stroke-width="38" stroke-dasharray="50 440" stroke-dashoffset="-278" transform="rotate(-90)"/>
+    <circle r="48" cx="0" cy="0" fill="#071126"/>
+  </g>
+  <g transform="translate(282,535)">
+    <text x="0" y="16" class="label">Python</text><rect x="105" y="0" width="176" height="12" rx="6" fill="#132238"/><rect x="105" y="0" width="176" height="12" rx="6" fill="url(#blue)"/><text x="294" y="13" class="small" font-size="16">42%</text>
+    <text x="0" y="50" class="label">Java</text><rect x="105" y="34" width="176" height="12" rx="6" fill="#132238"/><rect x="105" y="34" width="105" height="12" rx="6" fill="#A855F7"/><text x="294" y="47" class="small" font-size="16">20%</text>
+    <text x="0" y="84" class="label">TypeScript</text><rect x="105" y="68" width="176" height="12" rx="6" fill="#132238"/><rect x="105" y="68" width="78" height="12" rx="6" fill="#22D3EE"/><text x="294" y="81" class="small" font-size="16">15%</text>
+    <text x="0" y="118" class="label">SQL</text><rect x="105" y="102" width="176" height="12" rx="6" fill="#132238"/><rect x="105" y="102" width="60" height="12" rx="6" fill="#FB923C"/><text x="294" y="115" class="small" font-size="16">10%</text>
+    <text x="0" y="152" class="label">Others</text><rect x="105" y="136" width="176" height="12" rx="6" fill="#132238"/><rect x="105" y="136" width="72" height="12" rx="6" fill="#EC4899"/><text x="294" y="149" class="small" font-size="16">13%</text>
+  </g>
+  <g transform="translate(648,525)" class="small" font-size="16">
+    <circle cx="0" cy="0" r="3" fill="#60A5FA"/><text x="16" y="5">Flask</text>
+    <circle cx="0" cy="25" r="3" fill="#60A5FA"/><text x="16" y="30">FastAPI</text>
+    <circle cx="0" cy="50" r="3" fill="#8B5CF6"/><text x="16" y="55">Streamlit</text>
+    <circle cx="0" cy="75" r="3" fill="#8B5CF6"/><text x="16" y="80">Next.js</text>
+    <circle cx="0" cy="100" r="3" fill="#A78BFA"/><text x="16" y="105">Pandas</text>
+    <circle cx="0" cy="125" r="3" fill="#A78BFA"/><text x="16" y="130">NumPy</text>
+    <circle cx="0" cy="150" r="3" fill="#A78BFA"/><text x="16" y="155">Scikit-learn</text>
+    <circle cx="0" cy="175" r="3" fill="#A78BFA"/><text x="16" y="180">OpenCV</text>
+  </g>
+  <rect x="48" y="718" width="712" height="40" rx="9" fill="#07172E" stroke="#1E3A8A"/>
+  <text x="68" y="745" fill="#38BDF8" font-size="24">▣</text>
+  <text x="104" y="744" fill="#38BDF8" font-size="18" font-family="Segoe UI,Inter,Arial,sans-serif">Backend systems, ML pipelines &amp; dashboards</text>
+
+  <!-- Trophies -->
+  <rect x="804" y="480" width="620" height="300" rx="18" class="card" stroke="#D97706"/>
+  <circle cx="858" cy="530" r="35" fill="#2B2108" stroke="#FCD34D" stroke-width="2"/>
+  <text x="842" y="543" font-size="30">🏆</text>
+  <text x="912" y="523" class="muted" font-size="18" letter-spacing="3">GITHUB TROPHIES</text>
+  <text x="912" y="562" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="28" fill="#FCD34D" font-weight="900">Projects • Research • Leadership</text>
+  <g transform="translate(834,580)">
+    <rect x="0" y="0" width="170" height="118" rx="10" fill="#061B22" stroke="#0E7490"/>
+    <text x="70" y="40" font-size="34">🧠</text><text x="44" y="75" fill="#22D3EE" font-size="17" font-weight="800" font-family="Segoe UI,Inter,Arial,sans-serif">NeuroSense AI</text><text x="34" y="100" class="small" font-size="14">AI-powered research</text>
+    <rect x="188" y="0" width="190" height="118" rx="10" fill="#1B0B20" stroke="#BE185D"/>
+    <text x="268" y="42" font-size="35">⛓</text><text x="242" y="75" fill="#EC4899" font-size="17" font-weight="800" font-family="Segoe UI,Inter,Arial,sans-serif">n8n Platform</text><text x="224" y="100" class="small" font-size="14">Workflow automation</text>
+    <rect x="398" y="0" width="170" height="118" rx="10" fill="#061B13" stroke="#15803D"/>
+    <text x="468" y="42" font-size="35">🔎</text><text x="454" y="75" fill="#22C55E" font-size="17" font-weight="800" font-family="Segoe UI,Inter,Arial,sans-serif">Zoomly</text><text x="424" y="100" class="small" font-size="14">Smart dashboard</text>
+    <rect x="0" y="132" width="288" height="44" rx="8" fill="#071126" stroke="#334155"/>
+    <text x="18" y="160" font-size="22">👥</text><text x="52" y="155" fill="#22D3EE" font-size="16" font-weight="700" font-family="Segoe UI,Inter,Arial,sans-serif">AI/ML Community President</text>
+    <rect x="298" y="132" width="270" height="44" rx="8" fill="#071126" stroke="#334155"/>
+    <text x="320" y="160" font-size="23">🛡️</text><text x="356" y="155" fill="#FCD34D" font-size="16" font-weight="700" font-family="Segoe UI,Inter,Arial,sans-serif">NCC Cadet</text>
+  </g>
+
+  <!-- Activity Graph -->
+  <rect x="24" y="800" width="1400" height="260" rx="18" class="card" stroke="#8B5CF6"/>
+  <circle cx="78" cy="850" r="35" fill="#171134" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="58" y="861" font-size="29">📈</text>
+  <text x="120" y="848" class="muted" font-size="18" letter-spacing="3">ACTIVITY GRAPH</text>
+  <circle cx="1150" cy="830" r="5" fill="#5EFCA3"/><text x="1166" y="836" class="small" font-size="16">Contributions</text>
+  <circle cx="1305" cy="830" r="5" fill="#8B5CF6"/><text x="1321" y="836" class="small" font-size="16">Milestones</text>
+  <g transform="translate(82,880)">
+    <line x1="0" y1="120" x2="1280" y2="120" class="grid"/>
+    <line x1="0" y1="90" x2="1280" y2="90" class="grid"/>
+    <line x1="0" y1="60" x2="1280" y2="60" class="grid"/>
+    <line x1="0" y1="30" x2="1280" y2="30" class="grid"/>
+    <line x1="0" y1="0" x2="0" y2="126" stroke="#64748B" opacity=".75"/>
+    <line x1="0" y1="126" x2="1280" y2="126" stroke="#64748B" opacity=".35"/>
+    <text x="-34" y="126" class="axis">0</text><text x="-43" y="95" class="axis">25</text><text x="-43" y="65" class="axis">50</text><text x="-43" y="35" class="axis">75</text><text x="-52" y="7" class="axis">100</text>
+    <path d="M0 122 L110 108 L220 88 L330 104 L440 55 L550 75 L660 35 L770 62 L880 12 L990 52 L1100 15 L1210 34 L1280 9 L1280 126 L0 126 Z" fill="url(#areaGreen)"/>
+    <polyline points="0,122 110,108 220,88 330,104 440,55 550,75 660,35 770,62 880,12 990,52 1100,15 1210,34 1280,9" fill="none" stroke="url(#greenLine)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glowGreen)"/>
+    <g fill="#A7F3D0" stroke="#34D399" stroke-width="3">
+      <circle cx="0" cy="122" r="5"/><circle cx="220" cy="88" r="5"/><circle cx="440" cy="55" r="5"/><circle cx="660" cy="35" r="5"/><circle cx="880" cy="12" r="5"/><circle cx="1100" cy="15" r="5"/><circle cx="1280" cy="9" r="5"/>
+    </g>
+    <g fill="#A78BFA" stroke="#8B5CF6" stroke-width="4">
+      <circle cx="440" cy="55" r="7"/><circle cx="660" cy="35" r="7"/><circle cx="880" cy="12" r="7"/><circle cx="1100" cy="15" r="7"/><circle cx="1210" cy="34" r="7"/>
+    </g>
+    <g class="axis">
+      <text x="25" y="154">Feb</text><text x="150" y="154">Mar</text><text x="270" y="154">Apr</text><text x="398" y="154">May</text><text x="515" y="154">Jun</text><text x="638" y="154">Jul</text><text x="755" y="154">Aug</text><text x="878" y="154">Sep</text><text x="1000" y="154">Oct</text><text x="1120" y="154">Nov</text><text x="1238" y="154">Jan</text>
+    </g>
+  </g>
+  <g transform="translate(180,1014)">
+    <rect x="0" y="0" width="140" height="38" rx="9" fill="#071126" stroke="#1E3A8A"/><text x="34" y="25" class="text" font-size="17">🧠 AI/ML</text>
+    <rect x="170" y="0" width="120" height="38" rx="9" fill="#071126" stroke="#1E3A8A"/><text x="202" y="25" class="text" font-size="17">🔗 RAG</text>
+    <rect x="320" y="0" width="185" height="38" rx="9" fill="#071126" stroke="#1E3A8A"/><text x="348" y="25" class="text" font-size="17">⌘ Backend APIs</text>
+    <rect x="535" y="0" width="190" height="38" rx="9" fill="#071126" stroke="#1E3A8A"/><text x="562" y="25" class="text" font-size="17">📊 Data Analytics</text>
+    <rect x="755" y="0" width="250" height="38" rx="9" fill="#071126" stroke="#1E3A8A"/><text x="784" y="25" class="text" font-size="17">⚙ Automation Workflows</text>
+  </g>
+</svg>

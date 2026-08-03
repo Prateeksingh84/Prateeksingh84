@@ -356,21 +356,7 @@ timeline
 
 <div align="center">
 
-<img src="./assets/profile/github-stats.svg" height="165" alt="Prateek Singh GitHub Stats" />
-<img src="./assets/profile/github-streak.svg" height="165" alt="Prateek Singh GitHub Streak" />
-
-<br/><br/>
-
-<img src="./assets/profile/top-languages.svg" height="165" alt="Prateek Singh Top Languages" />
-<img src="./assets/profile/github-trophies.svg" height="165" alt="Prateek Singh GitHub Trophies" />
-
-</div>
-
-<div align="center">
-
-### 📈 Activity Graph
-
-<img src="./assets/profile/activity-graph.svg" width="100%" alt="Prateek Singh GitHub Activity Graph" />
+<img src="./assets/profile/github-stats-activity.svg" width="100%" alt="Prateek Singh GitHub Stats and Activity Dashboard" />
 
 </div>
 
