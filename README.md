@@ -356,59 +356,35 @@ timeline
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="25%">
-<h3>AI/ML</h3>
-<b>Primary Focus</b><br/>
-<sub>GenAI, RAG, ML Engineering, Data Analytics</sub>
-</td>
-<td align="center" width="25%">
-<h3>Python</h3>
-<b>Core Language</b><br/>
-<sub>FastAPI, Flask, Pandas, NumPy, Scikit-learn</sub>
-</td>
-<td align="center" width="25%">
-<h3>Backend</h3>
-<b>Engineering</b><br/>
-<sub>REST APIs, SQL, Supabase, Docker</sub>
-</td>
-<td align="center" width="25%">
-<h3>2026</h3>
-<b>B.Tech CSE</b><br/>
-<sub>Data Science & AI specialization</sub>
-</td>
-</tr>
-</table>
+<img src="./assets/profile/github-stats.svg" height="165" alt="Prateek Singh GitHub Stats" />
+<img src="./assets/profile/github-streak.svg" height="165" alt="Prateek Singh GitHub Streak" />
 
-<br/>
+<br/><br/>
 
-<table>
-<tr>
-<td align="center" width="33%">
-<b>🚀 Featured Work</b><br/>
-NeuroSense AI<br/>
-n8n Multi-Agent Platform<br/>
-Zoomly Meetings
-</td>
-<td align="center" width="33%">
-<b>🧠 AI Stack</b><br/>
-LLM/RAG<br/>
-Prompt Engineering<br/>
-Agentic AI
-</td>
-<td align="center" width="33%">
-<b>⚙️ Delivery Stack</b><br/>
-FastAPI / Flask<br/>
-SQL / Supabase<br/>
-GitHub / Docker
-</td>
-</tr>
-</table>
+<img src="./assets/profile/top-languages.svg" height="165" alt="Prateek Singh Top Languages" />
+<img src="./assets/profile/github-trophies.svg" height="165" alt="Prateek Singh GitHub Trophies" />
 
-<br/>
+</div>
 
-<sub>GitHub stats image cards were intentionally replaced with stable HTML cards so the profile does not show broken external images.</sub>
+<div align="center">
+
+### 📈 Activity Graph
+
+<img src="./assets/profile/activity-graph.svg" width="100%" alt="Prateek Singh GitHub Activity Graph" />
+
+</div>
+
+<div align="center">
+
+### 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prateeksingh84/Prateeksingh84/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prateeksingh84/Prateeksingh84/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Prateeksingh84/Prateeksingh84/output/github-snake.svg" width="100%" alt="GitHub contribution snake animation" />
+</picture>
+
+<sub>✅ Refreshes automatically every 6 hours via GitHub Actions once the workflow publishes the output branch.</sub>
 
 </div>
 

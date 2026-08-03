@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="165" viewBox="0 0 420 165">
+  <rect width="420" height="165" rx="18" fill="#0a0e27"/>
+  <rect x="1" y="1" width="418" height="163" rx="17" fill="none" stroke="#6EE7B7" stroke-opacity="0.55"/>
+  <circle cx="28" cy="28" r="7" fill="#6EE7B7"/>
+  <text x="46" y="34" fill="#E5E7EB" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">GitHub Stats</text>
+  <text x="24" y="56" fill="#6EE7B7" font-size="22" font-family="Segoe UI, Arial, sans-serif" font-weight="700">324+ Total Contributions</text><text x="24" y="94" fill="#E5E7EB" font-size="15" font-family="Segoe UI, Arial, sans-serif" font-weight="600">AI/ML • Backend • Data • Automation</text><text x="24" y="125" fill="#A78BFA" font-size="14" font-family="Segoe UI, Arial, sans-serif" font-weight="500">Building with Python, FastAPI, Flask, SQL, RAG</text><text x="24" y="155" fill="#CBD5E1" font-size="13" font-family="Segoe UI, Arial, sans-serif" font-weight="500">Open to internships, full-time roles &amp; collaboration</text>
+</svg>
