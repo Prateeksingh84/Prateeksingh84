@@ -356,7 +356,7 @@ timeline
 
 <div align="center">
 
-<img src="./assets/profile/github-stats-activity.svg" width="100%" alt="Prateek Singh GitHub Stats and Activity Dashboard" />
+<img src="./assets/profile/github-stats-dashboard.png" width="100%" alt="Prateek Singh GitHub Stats and Activity Dashboard" />
 
 </div>
 
