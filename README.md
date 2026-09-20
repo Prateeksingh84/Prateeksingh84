@@ -362,21 +362,15 @@ timeline
 <br/>
 
 <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Prateeksingh84&layout=compact&theme=dark&hide_border=true&count_private=true&langs_count=10&bg_color=0F172A&title_color=A78BFA&text_color=F8FAFC&border_radius=14" height="165" alt="Prateek Singh's most used languages" />
-<img src="https://github-profile-trophy.vercel.app/?username=Prateeksingh84&theme=darkhub&no-frame=true&column=4&margin-w=8&margin-h=8&row=2" height="165" alt="Prateek Singh's GitHub trophies" />
-
-<br/><br/>
-
-### 📈 Activity Graph
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Prateeksingh84&theme=react-dark&hide_border=true&bg_color=0F172A&color=A78BFA&line=22D3EE&point=F8FAFC&area=true&area_color=7C3AED" width="100%" alt="Prateek Singh's GitHub activity graph" />
 
 <br/>
 
-<sub>ℹ️ Stats and top-languages use the <code>shion.dev</code> community mirror of github-readme-stats (more stable than the default Vercel instance, which is frequently rate-limited). The trophy and activity-graph cards still call the official <code>vercel.app</code> deployments, which can occasionally go blank under load — if that happens, wait a few minutes and reload the page. All four widgets recompute on every page load, so this section always reflects real-time GitHub data with no manual refresh needed.</sub>
+<sub>ℹ️ These widgets use the <code>shion.dev</code> community mirror of github-readme-stats, which recomputes on every page load — this section always reflects real-time GitHub data with no manual refresh needed. (The trophy and activity-graph cards were removed: their official <code>vercel.app</code> hosts are currently returning HTTP 402 — a billing-related outage on the maintainers' side with no working public alternative — so they were showing as broken images instead of data.)</sub>
 
 </div>
 
 <div align="center">
+
 
 
 ### 🐍 Contribution Snake
