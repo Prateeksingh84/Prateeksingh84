@@ -356,7 +356,23 @@ timeline
 
 <div align="center">
 
-<img src="./assets/profile/github-stats-dashboard.png" width="100%" alt="Prateek Singh GitHub Stats and Activity Dashboard" />
+<img src="https://github-readme-stats.vercel.app/api?username=Prateeksingh84&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true&bg_color=0F172A&title_color=A78BFA&icon_color=22D3EE&text_color=F8FAFC&border_radius=14" height="165" alt="Prateek Singh's GitHub stats" />
+<img src="https://streak-stats.demolab.com?user=Prateeksingh84&theme=dark&hide_border=true&background=0F172A&ring=A78BFA&fire=22D3EE&currStreakLabel=A78BFA&sideLabels=F8FAFC&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8&border_radius=14" height="165" alt="Prateek Singh's GitHub streak" />
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prateeksingh84&layout=compact&theme=dark&hide_border=true&count_private=true&langs_count=10&bg_color=0F172A&title_color=A78BFA&text_color=F8FAFC&border_radius=14" height="165" alt="Prateek Singh's most used languages" />
+<img src="https://github-profile-trophy.vercel.app/?username=Prateeksingh84&theme=darkhub&no-frame=true&no-bg=false&column=4&margin-w=8&margin-h=8&row=2" height="165" alt="Prateek Singh's GitHub trophies" />
+
+<br/><br/>
+
+### 📈 Activity Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Prateeksingh84&theme=react-dark&hide_border=true&bg_color=0F172A&color=A78BFA&line=22D3EE&point=F8FAFC&area=true&area_color=7C3AED" width="100%" alt="Prateek Singh's GitHub activity graph" />
+
+<br/>
+
+<sub>ℹ️ These are live widgets rendered by <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a>, <a href="https://github.com/DenverCoder1/github-readme-streak-stats">streak-stats</a>, and <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">activity-graph</a> — they recompute on every page load, so this section always reflects real-time GitHub data with no manual refresh needed. If a card goes blank, the underlying service is usually rate-limited; wait a few minutes and reload.</sub>
 
 </div>
 
@@ -373,6 +389,7 @@ timeline
 <sub>✅ Refreshes automatically every 6 hours via GitHub Actions once the workflow publishes the output branch.</sub>
 
 </div>
+
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
