@@ -92,7 +92,7 @@ print(prateek["role"])
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:6D28D9,100:A78BFA&height=6&section=header" />
 
 ### 🏢 Hestabit Technologies Pvt. Ltd.
-**Software Engineer Intern, AI/ML & Backend** &nbsp;·&nbsp; `Jan 2026 – Present`
+**Software Engineer Intern, AI/ML & Backend** &nbsp;·&nbsp; `Jan 2026 – Jul 2026`
 
 - 🤖 Built **production-style AI & backend modules** using Python, REST APIs, RAG pipelines, embeddings, and LLM workflows
 - 🛡️ Engineered **cybersecurity data-processing pipelines** on NF-UQ-NIDS-v2 network traffic datasets for anomaly detection & traffic pattern analysis
@@ -105,7 +105,7 @@ print(prateek["role"])
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1D4ED8,100:60A5FA&height=6&section=header" />
 
 ### 🏛️ NITI AAYOG (Ministry of Home Affairs)
-**S&T Research Intern, Data Automation & Analytics** &nbsp;·&nbsp; `Sept 2025 – Nov 2025`
+**S&T Research Intern, Data Automation & Analytics** &nbsp;·&nbsp; `Aug 2025 – Dec 2025`
 
 - 📊 Built **Power BI & Excel dashboards** tracking S&T budgets, innovation programs & policy indicators for *"India's S&T Landscape 2025"*
 - 🤖 **Automated extraction, cleaning & normalization** of multi-departmental datasets via Python — cutting manual effort by **50%**
@@ -117,7 +117,7 @@ print(prateek["role"])
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D9488,100:5EEAD4&height=6&section=header" />
 
 ### 🗄️ AlgoStrauss IT Services and Consulting LLP
-**Database Engineer Intern** &nbsp;·&nbsp; `Sept 2024 – Nov 2024`
+**Software Engineer (AIML)** &nbsp;·&nbsp; `Jan 2024 – Jul 2024`
 
 - ⚙️ Optimized **SQL workflows across 100K+ records** via query refactoring, joins, subqueries & indexing
 - 🚀 Improved **query response time by 20%** and strengthened reporting reliability
@@ -129,7 +129,7 @@ print(prateek["role"])
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:D97706,100:FCD34D&height=6&section=header" />
 
 ### 🔬 Ghadai Technology
-**Data Analyst Intern, Healthcare Analytics (Hybrid)** &nbsp;·&nbsp; `Jul 2024 – Sept 2024`
+**Data Analyst Intern, Healthcare Analytics (Hybrid)** &nbsp;·&nbsp; `Jul 2024 – Dec 2024`
 
 - 🏥 Built **Python validation workflows** across 5+ healthcare datasets, improving data integrity by **25%**
 - 📉 Developed **KPI dashboards** using Power BI/Tableau for stakeholder decision-making
@@ -144,13 +144,13 @@ print(prateek["role"])
 ```mermaid
 timeline
     title Career Timeline
-    Jul 2024 - Sept 2024 : Ghadai Technology
+    Jan 2024 - Jul 2024  : AlgoStrauss IT Services
+                          : Software Engineer (AIML)
+    Jul 2024 - Dec 2024  : Ghadai Technology
                           : Data Analyst Intern (Healthcare)
-    Sept 2024 - Nov 2024  : AlgoStrauss IT Services
-                          : Database Engineer Intern
-    Sept 2025 - Nov 2025  : NITI AAYOG
+    Aug 2025 - Dec 2025  : NITI AAYOG
                           : S&T Research Intern
-    Jan 2026 - Present    : Hestabit Technologies
+    Jan 2026 - Jul 2026  : Hestabit Technologies
                           : SWE Intern, AI/ML & Backend
 ```
 
