@@ -498,27 +498,64 @@ flowchart LR
 
 <div align="center">
 
-| 🏅 Certificate | 🏢 Issuer |
-|:---|:---|
-| 🧠 OCI Data Science Professional | Oracle |
-| 🤖 Artificial Intelligence Analyst | IBM |
-| 💬 Technovate 2.0: Build Your Own Chatbots | IBM |
-| 📊 Machine Learning Using R | IBM |
-| 🗃️ Introduction to Big Data, Hadoop and the Ecosystems | — |
-| 📈 Data Analytics Job Simulation | Deloitte Australia – Forage |
-| 🔬 Oracle Professional: Data Science | Oracle |
+| 🏅 Certificate | 🏢 Issuer | 🔗 Credential |
+|:---|:---|:---:|
+| 🧠 **OCI Data Science Professional** | Oracle | Certified |
+| 🤖 **Artificial Intelligence Analyst** | IBM | [Verify ↗](https://courses.srmuh.skillsnetwork.site/certificates/bdf7dac901314607b53fb03842b2e26c) |
+| 🗃️ **Introduction to Big Data, Hadoop and the Ecosystems** | IBM | [Verify ↗](https://courses.srmuh.skillsnetwork.site/certificates/fae6397db80b43148d5da1af120b15d1) |
+| 📊 **Machine Learning with R** | IBM | [Verify ↗](https://courses.srmuh.skillsnetwork.site/certificates/b4a2c286582b4e7fbc9daaf1f4b78c2d) |
+| 🏭 **Industry Training** | IBM | [Verify ↗](https://courses.srmuh.skillsnetwork.site/certificates/ea0d20872e904415b21e6948a582f34a) |
+| 💬 **Technovate 2.0: Build Your Own Chatbots** | IBM | [Verify ↗](https://courses.srmuh.skillsnetwork.site/certificates/9f1956699706478aae07c7682b5a6097) |
+| 🐍 **Introduction to Python** | IBM | [Verify ↗](https://courses.srmuh.skillsnetwork.site/certificates/e13956563cf5441f8bc8023d50dc002a) |
+| 💡 **NEC '24 Basic Track - National Entrepreneurship Challenge** | E-Cell, IIT Bombay | Participated |
+| 💼 **BCG - Data Science Job Simulation** | Forage | [Verify ↗](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/BCG%20/Tcz8gTtprzAS4xSoK_BCG_7MDZfvpmDffLg2SN5_1722006846663_completion_certificate.pdf) |
+| 📊 **Tata Group - Data Visualisation: Empowering Business with Insights** | Forage | [Verify ↗](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Tata/MyXvBcppsW2FkNYCX_Tata%20Group_7MDZfvpmDffLg2SN5_1721730245552_completion_certificate.pdf) |
+| 📈 **Data Analytics Job Simulation** | Deloitte Australia – Forage | Completed |
 
 </div>
 
 <div align="center">
 
-**🧭 Relevant Learning**
+**🧭 Relevant Learning & Core Competencies**
 
+<br/>
+
+**⚙️ Software Engineering & System Architecture**  
+<img src="https://img.shields.io/badge/Microservices_Architecture-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/Event--Driven_Systems-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/High_Concurrency-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/RESTful_API_Design-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/SOLID_Principles-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/Async_Programming-333333?style=flat-square" />
+
+<br/><br/>
+
+**🤖 AI, Machine Learning & LLM Systems**  
+<img src="https://img.shields.io/badge/Multi--Agent_Orchestration-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/RAG_Architecture-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/Vector_Search_&_Embeddings-333333?style=flat-square" />
 <img src="https://img.shields.io/badge/ML_Pipeline_Development-333333?style=flat-square" />
 <img src="https://img.shields.io/badge/Model_Evaluation-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/Affective_Computing-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/LLM_Safety_&_Guardrails-333333?style=flat-square" />
+
+<br/><br/>
+
+**☁️ Cloud, DevOps & Compliance**  
 <img src="https://img.shields.io/badge/Cloud_AI_Fundamentals-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/CI%2FCD_Pipelines-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/Containerization_(Docker)-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/Big_Data_&_Hadoop-333333?style=flat-square" />
 <img src="https://img.shields.io/badge/HIPAA_Awareness-333333?style=flat-square" />
 <img src="https://img.shields.io/badge/ISO_27001_Awareness-333333?style=flat-square" />
+
+<br/><br/>
+
+**🧪 Testing & Quality Assurance**  
+<img src="https://img.shields.io/badge/Unit_&_Integration_Testing-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/Test--Driven_Development_(TDD)-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/API_Mocking_&_Validation-333333?style=flat-square" />
+<img src="https://img.shields.io/badge/Performance_Testing-333333?style=flat-square" />
 
 </div>
 
@@ -528,13 +565,18 @@ flowchart LR
 
 <div align="center">
 
-| Role | Organization | Duration |
-|:---|:---|:---|
-| 🎯 **Vice President** | AILYTICS CLUB, SRMUH | `2025 – 2026` |
-| 🎪 **Head of Events & Management** | E-CELL, SRMUH | `2024 – 2025` |
-| 🪖 **CDT** | NCC 12 HR BT | `2022 – 2025` |
+| Role / Recognition | Organization / Institution | Duration | Highlights |
+|:---|:---|:---:|:---|
+| 🎯 **Vice President** | AIML Community / AILYTICS CLUB, SRMUH | `2024 – 2026` | Organized AI/ML workshops, hackathons & mentored 100+ students |
+| 🚀 **Core Member & Mentor** | VERGE Technical Community | `2025 – 2026` | Mentored students in full-stack, cloud & applied AI implementations |
+| 🎪 **Event & Lead Manager** | E-CELL, SRMUH | `2024 – 2025` | Organized entrepreneurship competitions & coordinated with E-Cell IIT Bombay |
+| 🎖️ **Squad Commander & Pilot (CDT)** | NCC 12 HR BN / DST & Parade | `2022 – 2025` | Commanded drill squads; received **5 medals**; nominated for **Chancellor's Award** |
+| 🏫 **School Captain & Vice Captain** | School Student Council | `2021 – 2022` | Spearheaded student council governance, academic events & school discipline |
+| 🏛️ **Youth Parliament Delegate** | Regional Youth Parliament | `2018` | Secured **3rd Position at Regional Level** debating policy & national governance |
+| 🔬 **Project Presenter** | National Children's Science Congress (NCSC) | `2017` | Presented applied scientific research project at the Intra-Regional level |
+| 🧠 **Rank 6 Holder** | Young Scientist Talent Test | `2018 – 2019` | Secured **6th Rank at School Level** in scientific aptitude & problem solving |
 
-<sub>Led AI workshops, hackathons & mentoring initiatives for 100+ students</sub>
+<sub>Demonstrated sustained leadership across academics, technical clubs, NCC drill squads, and student councils.</sub>
 
 </div>
 
