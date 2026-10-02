@@ -52,9 +52,15 @@ print(prateek["role"])
 </td>
 <td width="45%" valign="top" align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" width="100%">
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%">
 
-<sub>🤖 AI/ML in motion</sub>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=350&lines=Building+AI+%26+Backend+Systems;RAG+Pipelines+%7C+Multi-Agent+AI;FastAPI+%7C+PyTorch+%7C+Docker;Open+to+Collaborations+%F0%9F%A4%9D" />
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,aws&theme=dark" height="32" />
 
 </td>
 </tr>
