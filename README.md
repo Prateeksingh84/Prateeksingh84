@@ -520,42 +520,54 @@ flowchart LR
 
 <br/>
 
-**⚙️ Software Engineering & System Architecture**  
-<img src="https://img.shields.io/badge/Microservices_Architecture-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/Event--Driven_Systems-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/High_Concurrency-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/RESTful_API_Design-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/SOLID_Principles-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/Async_Programming-333333?style=flat-square" />
+**⚙️ Software Engineering & System Architecture**
+
+<img src="https://skillicons.dev/icons?i=linux,nginx,redis,rabbitmq,kafka&theme=dark" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Microservices_Architecture-6366F1?style=for-the-badge&logo=diagram-next&logoColor=white" />
+<img src="https://img.shields.io/badge/Event--Driven_Systems-EC4899?style=for-the-badge&logo=apachekafka&logoColor=white" />
+<img src="https://img.shields.io/badge/High_Concurrency-0284C7?style=for-the-badge&logo=lightning&logoColor=white" />
+<img src="https://img.shields.io/badge/RESTful_API_Design-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+<img src="https://img.shields.io/badge/SOLID_Principles-10B981?style=for-the-badge&logo=codefactor&logoColor=white" />
+<img src="https://img.shields.io/badge/Async_Programming-06B6D4?style=for-the-badge&logo=python&logoColor=white" />
 
 <br/><br/>
 
-**🤖 AI, Machine Learning & LLM Systems**  
-<img src="https://img.shields.io/badge/Multi--Agent_Orchestration-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/RAG_Architecture-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/Vector_Search_&_Embeddings-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/ML_Pipeline_Development-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/Model_Evaluation-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/Affective_Computing-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/LLM_Safety_&_Guardrails-333333?style=flat-square" />
+**🤖 AI, Machine Learning & LLM Systems**
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,r&theme=dark" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Multi--Agent_Orchestration-8B5CF6?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/RAG_Architecture-A855F7?style=for-the-badge&logo=diagram-project&logoColor=white" />
+<img src="https://img.shields.io/badge/Vector_Search_&_Embeddings-7C3AED?style=for-the-badge&logo=databricks&logoColor=white" />
+<img src="https://img.shields.io/badge/ML_Pipeline_Engineering-F59E0B?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+<img src="https://img.shields.io/badge/Model_Evaluation-EF4444?style=for-the-badge&logo=target&logoColor=white" />
+<img src="https://img.shields.io/badge/Affective_Computing-EC4899?style=for-the-badge&logo=facenet&logoColor=white" />
+<img src="https://img.shields.io/badge/LLM_Safety_&_Guardrails-14B8A6?style=for-the-badge&logo=shield&logoColor=white" />
 
 <br/><br/>
 
-**☁️ Cloud, DevOps & Compliance**  
-<img src="https://img.shields.io/badge/Cloud_AI_Fundamentals-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/CI%2FCD_Pipelines-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/Containerization_(Docker)-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/Big_Data_&_Hadoop-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/HIPAA_Awareness-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/ISO_27001_Awareness-333333?style=flat-square" />
+**☁️ Cloud, DevOps & Compliance**
+
+<img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,linux&theme=dark" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Cloud_Architecture-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+<img src="https://img.shields.io/badge/CI%2FCD_Pipelines-2563EB?style=for-the-badge&logo=githubactions&logoColor=white" />
+<img src="https://img.shields.io/badge/Containerization_(Docker)-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Big_Data_&_Hadoop-66C0F4?style=for-the-badge&logo=apachehadoop&logoColor=white" />
+<img src="https://img.shields.io/badge/HIPAA_Awareness-0D9488?style=for-the-badge&logo=actigraph&logoColor=white" />
+<img src="https://img.shields.io/badge/ISO_27001_Awareness-059669?style=for-the-badge&logo=checkmarx&logoColor=white" />
 
 <br/><br/>
 
-**🧪 Testing & Quality Assurance**  
-<img src="https://img.shields.io/badge/Unit_&_Integration_Testing-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/Test--Driven_Development_(TDD)-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/API_Mocking_&_Validation-333333?style=flat-square" />
-<img src="https://img.shields.io/badge/Performance_Testing-333333?style=flat-square" />
+**🧪 Testing & Quality Assurance**
+
+<img src="https://skillicons.dev/icons?i=jest,selenium,postman,powershell,bash&theme=dark" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Unit_&_Integration_Testing-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
+<img src="https://img.shields.io/badge/Test--Driven_Development_(TDD)-16A34A?style=for-the-badge&logo=jest&logoColor=white" />
+<img src="https://img.shields.io/badge/API_Mocking_&_Validation-F97316?style=for-the-badge&logo=postman&logoColor=white" />
+<img src="https://img.shields.io/badge/Performance_Testing-E11D48?style=for-the-badge&logo=k6&logoColor=white" />
 
 </div>
 
