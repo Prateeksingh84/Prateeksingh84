@@ -231,8 +231,10 @@ timeline
     </td>
     <td width="50%" align="center" valign="middle">
       <br/>
-      <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f52c.png" width="100"/>
-      <p><i>🧪 Research paper (under review) — see below ⬇️</i></p>
+      <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f52c.png" width="75"/>
+      <h4>📑 Ongoing Research (2025 – Present)</h4>
+      <p><i>NeuroSense AI: Multimodal Mental Health Assistant via Voice & Vision</i></p>
+      <a href="#-research--publications-undergoing--2025--present"><img src="https://img.shields.io/badge/Read_Full_Abstract_%26_Architecture-8B5CF6?style=flat-square&logo=googlescholar&logoColor=white"/></a>
     </td>
   </tr>
   <tr>
@@ -257,10 +259,94 @@ timeline
   </tr>
 </table>
 
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+
+## 🔬 Research & Publications (Undergoing — 2025 – Present)
+
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100%" height="4">
+
 <div align="center">
 
-> 🧪 **Research (Under Review):** *Multimodal Agentic AI Platform for Mental Wellness Analytics* — exploring emotion-aware interaction, agentic workflows, persistent memory & responsible AI-based support systems.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:4C1D95,50:6D28D9,100:8B5CF6&height=8&section=header" />
 
+### 📑 *NeuroSense AI: A Multimodal Mental Health Assistant via Voice and Vision*
+**Status:** `Under Review` &nbsp;·&nbsp; **Timeline:** `2025 – Present` &nbsp;·&nbsp; **Affiliation:** SRM University, Delhi-NCR, India  
+**Authors:** **Prateek Singh** *(Lead Researcher)*, Devashish Biswas, Lakshay
+
+<br/>
+
+<img src="https://img.shields.io/badge/Status-Under_Review-F59E0B?style=for-the-badge&logo=googlescholar&logoColor=white" />
+<img src="https://img.shields.io/badge/Field-Affective_Computing-8B5CF6?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Architecture-Agentic_AI_%2B_Multimodal_Fusion-06B6D4?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Security-Supabase_RLS-10B981?style=for-the-badge" />
+
+</div>
+
+<br/>
+
+<table>
+<tr>
+<td width="58%" valign="top">
+
+#### 🎯 Abstract & Research Overview
+Mental health conditions impact over 970 million people globally, yet traditional conversational AI interventions (e.g., Woebot, Wysa) remain strictly text-bound, cloud-dependent, and lack real-time multimodal affect perception. 
+
+**NeuroSense AI** introduces an accessible, privacy-preserving, and non-diagnostic mental wellness ecosystem integrating:
+- 👁️ **Real-Time Facial Emotion Recognition** via OpenCV, MTCNN & FER to inject emotional state into LLM dialogue context
+- 🤟 **Hand Sign Recognition for Accessibility** using MediaPipe Hands (21 3D landmarks) + RandomForest (30 sign classes) empowering vocally & hearing-impaired users
+- 🎙️ **Multilingual Voice Interaction** supporting 6 Indian languages with browser Web Speech API, pyttsx3 & gTTS
+- 🛡️ **6-Agent Guardrail Safety Pipeline** (Safety, Scope Guard, Emotion, Knowledge, Research, Hallucination Checker) strictly preventing clinical misdiagnosis & hallucinated medication advice
+- 🔒 **Privacy-Preserving Edge/Cloud Storage** powered by local Ollama (Phi-3) / Groq LLaMA 3.3 70B with Supabase Row Level Security (RLS)
+
+</td>
+<td width="42%" valign="top">
+
+#### 📊 Empirical Benchmark Results
+
+| Metric / Component | Evaluated Performance |
+|:---|:---:|
+| 🤟 **Gesture Recognition** | **96.70%** (30 classes) |
+| 🎙️ **Speech Recognition** | **95.20%** |
+| 👁️ **Dominant Emotion Detection** | **92.90%** |
+| 🎯 **Overall System Accuracy** | **91.50%** |
+| 🌟 **User Satisfaction (UAT)** | **4.7 / 5.0** (50 users) |
+| 📸 Facial Emotion (Wild Webcam) | 58.60% |
+
+</td>
+</tr>
+</table>
+
+```mermaid
+flowchart LR
+    subgraph Inputs["Multimodal Input Streams"]
+        A["💬 Text Chat"]
+        B["🎙️ Voice Audio"]
+        C["👁️ Webcam Video"]
+        D["🤟 Hand Signs"]
+    end
+
+    subgraph Preprocessing["Feature Extraction"]
+        B --> B1["Speech-to-Text"]
+        C --> C1["MTCNN + FER"]
+        D --> D1["MediaPipe 21 Landmarks"]
+    end
+
+    subgraph Core["Agentic Safety & Reasoning Engine"]
+        A & B1 & C1 & D1 --> S["Safety Agent\n(Crisis & Self-Harm Guard)"]
+        S --> SG["Scope Guard Agent"]
+        SG --> EA["Emotion-Injected Context"]
+        EA --> LLM["Groq LLaMA 3.3 / Local Ollama"]
+        LLM --> HC["Hallucination Checker"]
+    end
+
+    subgraph Outputs["Secure Delivery"]
+        HC --> RES["Empathetic Wellness Response\n+ TTS Voice Output"]
+        HC --> SUPA[("Supabase Auth & RLS\nSession History & Analytics")]
+    end
+```
+
+<div align="center">
+<sub>📌 Research under review for publication in a peer-reviewed venue (2025–2026). Codebase, model weights & reproducible pipelines preserved for ethical AI evaluation.</sub>
 </div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
