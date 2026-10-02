@@ -17,7 +17,7 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=500&color=6EE7B7&center=true&vCenter=true&width=550&lines=%E2%9C%A8+Currently+Interning+%40+Hestabit+Technologies;%F0%9F%8C%B1+Always+learning%2C+always+building" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=500&color=6EE7B7&center=true&vCenter=true&width=620&lines=%E2%9C%A8+Served+as+Software+Engineer+%40+Hestabit+Technologies;%F0%9F%8C%B1+Always+learning%2C+always+building" />
 
 </div>
 
@@ -37,7 +37,7 @@ prateek = {
     "cgpa"       : 8.5,
     "location"   : "New Delhi, India 🇮🇳",
     "languages"  : ["English", "Hindi (Fluent)", "German (Working)"],
-    "currently"  : "SWE Intern @ Hestabit Technologies Pvt. Ltd.",
+    "experience" : "Served as Software Engineer @ Hestabit Technologies",
     "focus"      : ["Generative AI", "RAG Pipelines",
                      "Multi-Agent Systems", "LLM Apps",
                      "ML Engineering", "Data Analytics"],
@@ -92,7 +92,7 @@ print(prateek["role"])
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:6D28D9,100:A78BFA&height=6&section=header" />
 
 ### 🏢 Hestabit Technologies Pvt. Ltd.
-**Software Engineer Intern, AI/ML & Backend** &nbsp;·&nbsp; `Jan 2026 – Jul 2026`
+**Served as Software Engineer, AI/ML & Backend** &nbsp;·&nbsp; `Jan 2026 – Jul 2026`
 
 - 🤖 Built **production-style AI & backend modules** using Python, REST APIs, RAG pipelines, embeddings, and LLM workflows
 - 🛡️ Engineered **cybersecurity data-processing pipelines** on NF-UQ-NIDS-v2 network traffic datasets for anomaly detection & traffic pattern analysis
@@ -151,7 +151,7 @@ timeline
     Aug 2025 - Dec 2025  : NITI AAYOG
                           : S&T Research Intern
     Jan 2026 - Jul 2026  : Hestabit Technologies
-                          : SWE Intern, AI/ML & Backend
+                          : Served as Software Engineer, AI/ML & Backend
 ```
 
 </details>
@@ -233,6 +233,26 @@ timeline
       <br/>
       <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f52c.png" width="100"/>
       <p><i>🧪 Research paper (under review) — see below ⬇️</i></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>⚕️ Eve DiagnoSync — Distributed Diagnostic Platform</h3>
+      <p>Enterprise diagnostic booking & settlement backend built with <b>FastAPI, PostgreSQL 16 & Redis 7</b>. Features real-time slot conflict guards, idempotent payment webhooks, stateful token rotation, ReportLab PDF receipts & admin analytics.</p>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+    </td>
+    <td width="50%">
+      <h3>🌦️ WeatherGuard — Order Delay Processor</h3>
+      <p>Real-time weather-aware order delay processing engine using <b>Node.js & OpenWeatherMap API</b>. Features concurrent <code>Promise.allSettled</code> dispatch, automated customer apology generation, isolated error handling & a live streaming dashboard.</p>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+      <img src="https://img.shields.io/badge/OpenWeatherMap-EB6E4B?style=flat-square&logo=cloudsmith&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Concurrency-1E90FF?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Live_Dashboard-9146FF?style=flat-square"/>
     </td>
   </tr>
 </table>
