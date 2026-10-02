@@ -284,64 +284,77 @@ timeline
 
 <br/>
 
-<table>
-<tr>
-<td width="58%" valign="top">
+### 1️⃣ Abstract & Research Overview
 
-#### 🎯 Abstract & Research Overview
-Mental health conditions impact over 970 million people globally, yet traditional conversational AI interventions (e.g., Woebot, Wysa) remain strictly text-bound, cloud-dependent, and lack real-time multimodal affect perception. 
+Mental health conditions impact over 970 million people globally (World Health Organization). While existing conversational AI systems (e.g., Woebot, Wysa) provide helpful scripted support, they remain strictly text-based, cloud-dependent, and lack the ability to observe real-time non-verbal emotional cues from facial expressions or assist speech-disabled individuals through sign language.
 
-**NeuroSense AI** introduces an accessible, privacy-preserving, and non-diagnostic mental wellness ecosystem integrating:
-- 👁️ **Real-Time Facial Emotion Recognition** via OpenCV, MTCNN & FER to inject emotional state into LLM dialogue context
-- 🤟 **Hand Sign Recognition for Accessibility** using MediaPipe Hands (21 3D landmarks) + RandomForest (30 sign classes) empowering vocally & hearing-impaired users
-- 🎙️ **Multilingual Voice Interaction** supporting 6 Indian languages with browser Web Speech API, pyttsx3 & gTTS
-- 🛡️ **6-Agent Guardrail Safety Pipeline** (Safety, Scope Guard, Emotion, Knowledge, Research, Hallucination Checker) strictly preventing clinical misdiagnosis & hallucinated medication advice
-- 🔒 **Privacy-Preserving Edge/Cloud Storage** powered by local Ollama (Phi-3) / Groq LLaMA 3.3 70B with Supabase Row Level Security (RLS)
+**NeuroSense AI** is an ongoing research initiative (2025–Present) developing an accessible, privacy-preserving, and non-diagnostic mental wellness ecosystem that bridges these critical gaps:
 
-</td>
-<td width="42%" valign="top">
+- 👁️ **Real-Time Facial Emotion Recognition**: Captures webcam video frames via OpenCV, isolates facial structures using MTCNN, and classifies emotional states (Neutral, Happy, Sad, Angry, Surprised, Fear) via FER models to dynamically inject emotional context into the LLM conversation prompt.
+- 🤟 **Accessible Hand Sign Recognition**: Extracts 21 3D hand landmarks via MediaPipe Hands and classifies gestures using a trained RandomForest model across 30 custom sign classes with temporal hold-to-confirm validation, enabling vocally impaired and non-verbal users to communicate seamlessly.
+- 🎙️ **Multilingual Voice Interaction**: Enables natural speech conversation supporting 6 Indian languages via the browser Web Speech API for transcription and pyttsx3 / gTTS for empathetic voice synthesis.
+- 🛡️ **6-Agent Guardrail Safety Pipeline**: Deploys specialized agents (Safety Agent, Scope Guard Agent, Emotion Agent, Knowledge Agent, RAG Research Agent, and Hallucination Checker) to enforce clinical boundaries, detect self-harm/crisis signals, and strictly prevent false medical diagnoses or medication claims.
+- 🔒 **Privacy-Preserving Edge & Cloud Architecture**: Supports local offline inference using Ollama (Phi-3 Mini) for sensitive data protection alongside cloud inference via Groq LLaMA 3.3 70B, backed by Supabase PostgreSQL with strict Row Level Security (RLS) data isolation.
 
-#### 📊 Empirical Benchmark Results
+---
 
-| Metric / Component | Evaluated Performance |
-|:---|:---:|
-| 🤟 **Gesture Recognition** | **96.70%** (30 classes) |
-| 🎙️ **Speech Recognition** | **95.20%** |
-| 👁️ **Dominant Emotion Detection** | **92.90%** |
-| 🎯 **Overall System Accuracy** | **91.50%** |
-| 🌟 **User Satisfaction (UAT)** | **4.7 / 5.0** (50 users) |
-| 📸 Facial Emotion (Wild Webcam) | 58.60% |
+### 2️⃣ Empirical Benchmark Results
 
-</td>
-</tr>
-</table>
+Evaluated across a comprehensive User Acceptance Testing (UAT) study involving 50 participants, custom gesture datasets, and real-world webcam conditions:
+
+| Evaluation Component / Modality | Technical Pipeline & Models | Evaluated Metric | Benchmark Result |
+|:---|:---|:---:|:---:|
+| 🤟 **Hand Sign Recognition** | MediaPipe Hands (21 3D Landmarks) + RandomForest | Classification Accuracy | **96.70%** (30 sign classes) |
+| 🎙️ **Speech Recognition** | Web Speech API + Whisper Acoustic Architecture | Word Recognition Accuracy | **95.20%** (Multi-accented) |
+| 👁️ **Dominant Emotion Detection** | OpenCV + MTCNN + FER Classifier | Dominant State Accuracy | **92.90%** |
+| 🎯 **Overall Project Accuracy** | Multimodal Context-Weighted System | End-to-End System Accuracy | **91.50%** |
+| 🌟 **User Satisfaction (UAT)** | 50-Participant Evaluation Cohort | Mean Satisfaction Score | **4.7 / 5.0** |
+| 📸 **Facial Emotion (In-the-Wild)** | FER2013 / AffectNet (Uncontrolled Lighting & Webcams) | Raw Frame Accuracy | **58.60%** |
+
+---
+
+### 3️⃣ System Architecture & Technical Workflow
+
+The system is organized into four decoupled processing layers to maximize modularity, throughput, and fail-safe clinical safety:
+
+1. **Multimodal Input Layer**: Captures concurrent signals across text input, microphone speech audio, webcam facial video, and real-time hand gestures.
+2. **Preprocessing & Feature Extraction Layer**: Processes speech via browser speech recognition, detects facial landmarks and expressions using MTCNN + FER, and converts hand skeletons into normalized 21-coordinate vectors.
+3. **Agentic AI Safety & Reasoning Engine**:
+   - 🛡️ **Safety Agent**: Intercepts prompts for self-harm triggers, crisis signs, and distress escalation.
+   - 🎯 **Scope Guard Agent**: Maintains strict guardrails keeping discussions centered on wellness support.
+   - 🎭 **Emotion Agent**: Fuses emotional vectors from face, voice, and text into contextual prompt weights.
+   - 📚 **Knowledge & Research Agent**: Retrieves CBT/DBT-informed supportive frameworks.
+   - 🧠 **LLM Reasoning**: Groq LLaMA 3.3 70B or local Ollama Phi-3 Mini generates empathetic responses.
+   - 🔍 **Hallucination Checker**: Audits the draft response to block unauthorized clinical or medical advice.
+4. **Output & Persistence Layer**: Delivers empathetic text + TTS voice synthesis, triggers wellness tools (breathing exercises, grounding, mood journaling), and securely records session metrics to Supabase with Row Level Security (RLS).
 
 ```mermaid
-flowchart LR
-    subgraph Inputs["Multimodal Input Streams"]
-        A["💬 Text Chat"]
-        B["🎙️ Voice Audio"]
-        C["👁️ Webcam Video"]
-        D["🤟 Hand Signs"]
+flowchart TD
+    subgraph Inputs["1. Multimodal Input Layer"]
+        A["💬 Text Message"]
+        B["🎙️ Voice Audio Stream"]
+        C["👁️ Webcam Video Feed"]
+        D["🤟 Hand Sign Gestures"]
     end
 
-    subgraph Preprocessing["Feature Extraction"]
-        B --> B1["Speech-to-Text"]
-        C --> C1["MTCNN + FER"]
-        D --> D1["MediaPipe 21 Landmarks"]
+    subgraph Preprocessing["2. Preprocessing & Feature Extraction"]
+        B --> P1["Browser Web Speech API (STT)"]
+        C --> P2["OpenCV + MTCNN Face Detection & FER"]
+        D --> P3["MediaPipe 21 Landmarks + RandomForest (30 Classes)"]
     end
 
-    subgraph Core["Agentic Safety & Reasoning Engine"]
-        A & B1 & C1 & D1 --> S["Safety Agent\n(Crisis & Self-Harm Guard)"]
-        S --> SG["Scope Guard Agent"]
-        SG --> EA["Emotion-Injected Context"]
-        EA --> LLM["Groq LLaMA 3.3 / Local Ollama"]
-        LLM --> HC["Hallucination Checker"]
+    subgraph AgenticPipeline["3. Agentic Safety & LLM Reasoning Pipeline"]
+        A & P1 & P2 & P3 --> S1["🛡️ Safety Agent (Self-Harm & Crisis Interceptor)"]
+        S1 --> S2["🎯 Scope Guard Agent (Clinical Boundary Enforcement)"]
+        S2 --> S3["🎭 Emotion Agent (Multimodal Context Injection)"]
+        S3 --> S4["🧠 Groq LLaMA 3.3 70B / Local Ollama (Phi-3 Mini)"]
+        S4 --> S5["🔍 Hallucination Checker (Blocks Medical Claims)"]
     end
 
-    subgraph Outputs["Secure Delivery"]
-        HC --> RES["Empathetic Wellness Response\n+ TTS Voice Output"]
-        HC --> SUPA[("Supabase Auth & RLS\nSession History & Analytics")]
+    subgraph OutputLayer["4. Secure Output & Persistence Layer"]
+        S5 --> OUT1["💬 Empathetic Text Response + gTTS Audio Synthesis"]
+        S5 --> OUT2["🧘 Interactive Wellbeing Tools (Breathing, Grounding, Journaling)"]
+        S5 --> DB[("🔒 Supabase PostgreSQL with Row Level Security (RLS)")]
     end
 ```
 
